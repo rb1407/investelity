@@ -12,6 +12,7 @@ It comprises the following Python scripts :
 5. ___```asset_analysis.py``` :___ To calculate annualized return, risk and volatility for each equity and US-based fund (based on both 1-year and 3-year prices) using monthly holding period returns (HPRs), and subsequently rank them on the basis of risk-adjusted return. Takes around *10 minutes* to run.
 6. ___```clean_returns.py``` :___ To drop equities and US-based funds with outlier (unrealistic) returns.
 7. ___```create_viz.py``` :___ To create Tableau-ready datasets for visualization.
+8. ___```add_info.py``` :___ To add information for each stock and fund.
 
 ___The package must be run in the above order to ensure an error-free and smooth experience.___ Scripts must not be run more than once a month. Running the package more than once a month will not produce updated results, as returns are calculated on a monthly basis, as of the last trading day in the previous month.
 ___In order to produce updated results at the beginning of each month, scripts should be run only after the first worldwide trading day in that month has passed.___
@@ -23,6 +24,7 @@ This repository also archives all data collected and produced by it in several f
 4. ___returns___ : Folders to store returns by ISO country code (and for world markets at-large), as according to 1-year or 3-year analyses.
 5. ___final___ : Folders to store cleaned returns by ISO country code (and for world markets at-large, as according to 1-year or 3-year analyses. 
 6. ____viz____ : Folder to store visualization-ready datasets for equities on Tableau, as according to 1-year or 3-year returns.
+7. ____database____ : Folder to store detailed databases (by country) for analysis.
 
 __N.B.:__ This package uses a driver directory ```Markets_by_Country.xlsx``` listing every country's ISO code and market index, which must be accessible to the Python scripts when running them.
 
