@@ -1,0 +1,159 @@
+name: Investelity Pipeline
+
+# Runs the full investelity pipeline (market_index -> pull_tickers -> pull_prices
+# -> clean_prices -> asset_analysis -> clean_returns -> create_viz -> add_info)
+# across multiple GitHub Actions jobs, since a single job caps out at 6 hours
+# and pull_prices.py alone can take ~24 hours.
+#
+# How it works: each "pull_prices" job runs the script for up to ~5h40m, then
+# commits whatever new price files it wrote back to the repo (this is safe --
+# pull_prices.py already skips any country whose files already exist), checks
+# whether any country is still missing its output files, and if so, dispatches
+# a fresh run of itself to keep going. This repeats until nothing is left, then
+# it moves on to the fast finishing steps.
+#
+# Start it from the Actions tab -> "Investelity Pipeline" -> "Run workflow"
+# (leave the stage input as "start"). No further action needed after that --
+# it re-triggers itself until the whole pipeline is done, so your laptop being
+# off doesn't matter once you've clicked Run.
+
+on:
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: "Pipeline stage to run"
+        required: true
+        default: "start"
+        type: choice
+        options:
+          - start
+          - pull_prices
+          - finalize
+
+permissions:
+  contents: write
+  actions: write
+
+env:
+  PYTHON_VERSION: "3.11"
+
+jobs:
+  setup:
+    if: github.event.inputs.stage == 'start'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - run: pip install pandas yfinance statsmodels openpyxl
+
+      - name: market_index.py
+        run: python3 market_index.py
+
+      - name: pull_tickers.py
+        run: python3 pull_tickers.py
+
+      - name: Commit progress
+        run: |
+          git config user.name "investelity-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Checkpoint: market_index + pull_tickers [skip ci]"
+          git push
+
+      - name: Kick off price pulling
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run investelity-pipeline.yml -f stage=pull_prices
+
+  pull_prices:
+    if: github.event.inputs.stage == 'pull_prices'
+    runs-on: ubuntu-latest
+    # Leaves ~20 minutes of the 6-hour job budget for checkout/setup/commit/dispatch.
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - run: pip install pandas yfinance statsmodels openpyxl
+
+      - name: pull_prices.py (time-boxed to 5h40m)
+        run: timeout 20400 python3 pull_prices.py || true
+
+      - name: Commit progress
+        run: |
+          git config user.name "investelity-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Checkpoint: pull_prices.py progress [skip ci]"
+          git push
+
+      - name: Check remaining work
+        id: check
+        run: |
+          python3 - <<'EOF'
+          import os, time
+          import pandas as pd
+
+          year = time.localtime().tm_year
+          month = time.localtime().tm_mon
+
+          indices = pd.read_excel("Markets_by_Country.xlsx", index_col=0, header=0)
+          looper = list(indices.index) + ["usf"]
+
+          remaining = [
+              i for i in looper
+              if not (
+                  os.path.exists(f"prices/3y/{month-1}_{year}/{i}.csv")
+                  and os.path.exists(f"prices/1y/{month-1}_{year}/{i}.csv")
+              )
+          ]
+          print(f"{len(remaining)} countries remaining: {remaining}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"remaining={len(remaining)}\n")
+          EOF
+
+      - name: Continue pulling or move to finalize
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "${{ steps.check.outputs.remaining }}" != "0" ]; then
+            echo "Work remains -- dispatching another pull_prices run."
+            gh workflow run investelity-pipeline.yml -f stage=pull_prices
+          else
+            echo "pull_prices.py is fully done -- dispatching finalize."
+            gh workflow run investelity-pipeline.yml -f stage=finalize
+          fi
+
+  finalize:
+    if: github.event.inputs.stage == 'finalize'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - run: pip install pandas yfinance statsmodels openpyxl
+
+      - name: clean_prices.py
+        run: python3 clean_prices.py
+      - name: asset_analysis.py
+        run: python3 asset_analysis.py
+      - name: clean_returns.py
+        run: python3 clean_returns.py
+      - name: create_viz.py
+        run: python3 create_viz.py
+      - name: add_info.py
+        run: python3 add_info.py
+
+      - name: Commit final results
+        run: |
+          git config user.name "investelity-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Checkpoint: full pipeline complete [skip ci]"
+          git push
