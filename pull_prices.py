@@ -78,7 +78,7 @@ for i in looper:
                         p = pull_prices(t[500*j:500*(j+1)])
                      else:
                         p = pull_prices(t[500*j:])
-                     e = list(yf.shared._ERRORS.items()) #List of exceptions
+                     e = list(yf._DownloadCtx.errors.items()) #List of exceptions
                      
                      # Sleep for 2 hours if rate limited
                      if rate_limited(e):
