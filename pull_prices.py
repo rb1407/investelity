@@ -1,10 +1,11 @@
-import pandas as pd, yfinance as yf, time, json, os, glob
+import pandas as pd, yfinance as yf, time, json, os, glob, logging
 year = time.localtime().tm_year
 month = time.localtime().tm_mon
 
 # Make directories to store prices
 for i in ['1y', '3y']:
     os.makedirs(f"prices/{i}/{month-1}_{year}", exist_ok = True)
+os.makedirs("cache", exist_ok = True)
 
 """
 Read in tickers for reg
@@ -16,15 +17,41 @@ def read_tickers(reg):
     return tickers
 
 """
-Pull 3y-prices for tickers and filter for end-of-month prices only
+Newer yfinance (1.4.0+) no longer exposes per-ticker download errors on any
+public attribute -- yf.shared._ERRORS is dead (the module still exists but
+nothing populates it any more) and yf._ERRORS never existed. The only place
+yfinance still surfaces a failed download is via its own logger ('yfinance'),
+e.g. logger.error("['TICKER']: YFRateLimitError('Too Many Requests. ...')").
+This handler watches for that while a download() call runs, in place of the
+old yf.shared._ERRORS.items() check.
+"""
+class _RateLimitCatcher(logging.Handler):
+    def __init__(self):
+        super().__init__(level = logging.ERROR)
+        self.hit = False
+
+    def emit(self, record):
+        if "YFRateLimitError" in record.getMessage():
+            self.hit = True
+
+"""
+Pull 3y-prices for tickers and filter for end-of-month prices only.
+Returns (data, was_rate_limited).
 """
 def pull_prices(tickers):
-    data = yf.download(tickers, period = '3y')['Close'].reset_index()
+    yf_logger = logging.getLogger('yfinance')
+    catcher = _RateLimitCatcher()
+    yf_logger.addHandler(catcher)
+    try:
+        data = yf.download(tickers, period = '3y')['Close'].reset_index()
+    finally:
+        yf_logger.removeHandler(catcher)
+
     data['Month'] = data['Date'].dt.month
     data['Lead_Month'] = data['Month'].shift(-1)
     data = data[data['Month'] != data['Lead_Month']]
     data = data.drop(['Month', 'Lead_Month'], axis = 1).set_index('Date')
-    return data
+    return data, catcher.hit
 
 """
 Slice out prices for the most recent mnths months
@@ -39,16 +66,6 @@ def remove_cache(i):
     for f in glob.glob(f"cache/{i}*.pkl"):
         os.remove(f)
 
-"""
-Check for YFRateLimitError
-"""
-def rate_limited(e):
-    for i in e:
-        if "YFRateLimitError" in i[1]:
-            return True
-    return False
-    
-    
 indices = pd.read_excel("Markets_by_Country.xlsx", index_col = 0, header = 0)
 looper = list(indices.index)
 looper.append('usf')
@@ -75,13 +92,12 @@ for i in looper:
                        
                  else: 
                      if j != int(len(t)/500):
-                        p = pull_prices(t[500*j:500*(j+1)])
+                        p, hit = pull_prices(t[500*j:500*(j+1)])
                      else:
-                        p = pull_prices(t[500*j:])
-                     e = list(yf._DownloadCtx.errors.items()) #List of exceptions
-                     
+                        p, hit = pull_prices(t[500*j:])
+
                      # Sleep for 2 hours if rate limited
-                     if rate_limited(e):
+                     if hit:
                         time.sleep(7200)
                         continue
                 
