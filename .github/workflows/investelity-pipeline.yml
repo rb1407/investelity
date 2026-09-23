@@ -79,9 +79,19 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
       - run: pip install pandas yfinance statsmodels openpyxl
+      - run: mkdir -p cache
 
       - name: pull_prices.py (time-boxed to 5h40m)
-        run: timeout 20400 python3 pull_prices.py || true
+        id: pull
+        run: |
+          set +e
+          timeout 20400 python3 pull_prices.py
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" -ne 0 ] && [ "$code" -ne 124 ]; then
+            echo "::error::pull_prices.py exited with code $code (not a timeout -- this is a real error, not just running out of time). Stopping the auto-chain so this doesn't loop forever; whatever it wrote before crashing is still committed below."
+          fi
+          exit 0
 
       - name: Commit progress
         run: |
@@ -92,6 +102,7 @@ jobs:
           git push
 
       - name: Check remaining work
+        if: steps.pull.outputs.exit_code == '0' || steps.pull.outputs.exit_code == '124'
         id: check
         run: |
           python3 - <<'EOF'
@@ -117,6 +128,7 @@ jobs:
           EOF
 
       - name: Continue pulling or move to finalize
+        if: steps.pull.outputs.exit_code == '0' || steps.pull.outputs.exit_code == '124'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -127,6 +139,12 @@ jobs:
             echo "pull_prices.py is fully done -- dispatching finalize."
             gh workflow run investelity-pipeline.yml -f stage=finalize
           fi
+
+      - name: Stop -- pull_prices.py crashed (not a timeout)
+        if: steps.pull.outputs.exit_code != '0' && steps.pull.outputs.exit_code != '124'
+        run: |
+          echo "::error::pull_prices.py crashed with exit code ${{ steps.pull.outputs.exit_code }}. Not re-dispatching -- fix the script, then manually re-run this workflow with stage=pull_prices."
+          exit 1
 
   finalize:
     if: github.event.inputs.stage == 'finalize'
