@@ -36,11 +36,11 @@ for i in ['1y', '3y']:
                 time.sleep(7200)
                 continue
                 
-             info = t.get_info()
-             returns.loc[r,'Industry'] = info.get('industry')
-             returns.loc[r, 'Sector'] = info.get('sector')
-             returns.loc[r, 'Rating'] = info.get('averageAnalystRating')
-             j+=1
+            info = t.get_info()
+            returns.loc[r,'Industry'] = info.get('industry')
+            returns.loc[r, 'Sector'] = info.get('sector')
+            returns.loc[r, 'Rating'] = info.get('averageAnalystRating')
+            j+=1
 
           returns = returns.reset_index() 
           cols = list(returns.columns)
