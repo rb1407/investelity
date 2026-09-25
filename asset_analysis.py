@@ -1,4 +1,4 @@
-import pandas as pd, json, time, os
+import pandas as pd, json, time, os, numpy as np
 import statsmodels.api as sm, math
 year = time.localtime().tm_year
 month = time.localtime().tm_mon
