@@ -30,6 +30,11 @@ for i in ['1y', '3y']:
             try:
                t = yf.Ticker(r)
                info = t.get_info()
+
+            except Exception as e:
+               if "YFRateLimitError" in str(e) or "Too Many Requests" in str(e):
+                   time.sleep(7200)
+                   continue
                 
             finally:
                yf_logger.removeHandler(catcher)
