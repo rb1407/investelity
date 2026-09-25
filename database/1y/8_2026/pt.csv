@@ -1,0 +1,26 @@
+Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,Sector,Rating
+1,MLCIA.LS,"Ciagest - Sic Imobiliaria Fechada, S.A.",7.85,0.012,0.086,Yes,REIT - Office,Real Estate,
+2,BCP.LS,"Banco Comercial Português, S.A.",62.53,0.184,0.37,No,Banks - Regional,Financial Services,2.0 - Buy
+3,SON.LS,"Sonae, SGPS, S.A.",63.48,0.187,0.856,Yes,Grocery Stores,Consumer Defensive,1.1 - Strong Buy
+4,NOS.LS,"NOS, S.G.P.S., S.A.",48.53,0.235,0.946,Yes,Telecom Services,Communication Services,
+5,SCB.LS,"Sporting Clube de Braga - Futebol, SAD",82.29,0.367,0.162,No,Entertainment,Communication Services,
+6,PSI20.LS,PSI 20,21.25,0.123,1.0,Yes,,,
+7,GALP.LS,"Galp Energia, SGPS, S.A.",48.35,0.329,0.843,Yes,Oil & Gas Integrated,Energy,2.1 - Buy
+8,EDPR.LS,"EDP Renewables, S.A.",27.69,0.205,1.242,Yes,Utilities - Renewable,Utilities,2.0 - Buy
+9,VAF.LS,"Vista Alegre Atlantis, SGPS, S.A.",6.5,0.053,0.163,Yes,"Furnishings, Fixtures & Appliances",Consumer Cyclical,
+10,SCT.LS,"Toyota Caetano Portugal, S.A.",24.29,0.183,0.401,Yes,Auto Manufacturers,Consumer Cyclical,
+11,EDP.LS,"EDP, S.A.",25.55,0.193,1.284,Yes,Utilities - Diversified,Utilities,1.7 - Buy
+12,RENE.LS,"REN - Redes Energéticas Nacionais, SGPS, S.A.",24.15,0.203,1.159,Yes,Utilities - Diversified,Utilities,2.0 - Buy
+13,MLFMV.LS,"Farminveste, S.G.P.S., S.A.",56.35,0.55,0.102,No,Medical Distribution,Healthcare,
+14,SEM.LS,"Semapa - Sociedade de Investimento e Gestão, SGPS, S.A.",26.88,0.331,1.056,Yes,Paper & Paper Products,Basic Materials,
+15,IBS.LS,"Ibersol, S.G.P.S., S.A.",13.43,0.23,1.067,Yes,Restaurants,Consumer Cyclical,1.0 - Strong Buy
+16,MRL.LS,"MERLIN Properties SOCIMI, S.A.",15.48,0.318,1.686,Yes,REIT - Office,Real Estate,
+17,SCP.LS,"Sporting Clube de Portugal - Futebol, SAD",2.66,0.089,0.143,No,Entertainment,Communication Services,
+18,NVG.LS,"The Navigator Company, S.A.",3.74,0.135,0.035,Yes,Paper & Paper Products,Basic Materials,
+19,COR.LS,"Corticeira Amorim, S.G.P.S., S.A.",4.01,0.154,0.386,Yes,Lumber & Wood Production,Basic Materials,
+20,CTT.LS,"CTT - Correios De Portugal, S.A.",-4.32,0.263,0.987,Yes,Integrated Freight & Logistics,Industrials,
+21,JMT.LS,"Jerónimo Martins, SGPS, S.A.",-8.48,0.241,1.643,Yes,Food Distribution,Consumer Defensive,1.5 - Buy
+22,IPR.LS,"Impresa - Sociedade Gestora de Participações Sociais, S.A.",-15.1,0.374,0.591,Yes,Broadcasting,Communication Services,
+23,ESON.LS,"Estoril Sol, SGPS, S.A.",-23.04,0.423,1.597,Yes,Resorts & Casinos,Consumer Cyclical,
+24,GLINT.LS,"Glintt Global, S.A.",-22.04,0.342,0.247,Yes,Information Technology Services,Technology,
+25,RAM.LS,"Ramada Investimentos e Industria, S.A.",-4.14,0.058,0.282,Yes,Steel,Basic Materials,

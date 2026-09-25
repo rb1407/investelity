@@ -1,0 +1,108 @@
+Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,Sector,Rating
+1,EYDAP.AT,Athens Water Supply and Sewerage Company S.A.,111.09,0.226,0.739,No,Utilities - Regulated Water,Utilities,
+2,VIDAVO.AT,Vidavo S.A.,123.11,0.246,0.814,Yes,Health Information Services,Healthcare,
+3,BLEKEDROS.AT,Ble Kedros REIC,22.51,0.067,0.121,Yes,REIT - Hotel & Motel,Real Estate,
+4,KARE.AT,Karelia Tobacco Company Inc.,29.78,0.104,0.083,Yes,Tobacco,Consumer Defensive,
+5,PPC.AT,Public Power Corporation S.A.,90.52,0.272,0.947,Yes,Utilities - Renewable,Utilities,1.2 - Strong Buy
+6,MODA.AT,N. Varveris-Moda Bagno S.A.,34.21,0.13,0.272,Yes,"Furnishings, Fixtures & Appliances",Consumer Cyclical,
+7,REALCONS.AT,Real Consulting S.A.,78.66,0.265,1.079,Yes,Information Technology Services,Technology,
+8,ACAG.AT,Austriacard Holdings AG,122.64,0.372,1.638,Yes,Information Technology Services,Technology,
+9,KRI.AT,Kri-Kri Milk Industry S.A.,97.26,0.328,0.913,Yes,Packaged Foods,Consumer Defensive,2.5 - Buy
+10,EYAPS.AT,Thessaloniki Water Supply & Sewerage Co S.A.,34.13,0.148,0.221,Yes,Utilities - Regulated Water,Utilities,
+11,INLIF.AT,Interlife General Insurance Company S.A.,51.91,0.234,0.678,Yes,Insurance - Diversified,Financial Services,
+12,ETE.AT,National Bank of Greece S.A.,49.72,0.23,0.954,Yes,Banks - Regional,Financial Services,1.6 - Buy
+13,TITC.AT,Titan S.A.,75.17,0.329,1.081,Yes,Building Materials,Basic Materials,1.1 - Strong Buy
+14,GD.AT,ASE Composite Index,36.98,0.183,1.0,Yes,,,
+15,PROFK.AT,Pipe Works L. Girakian Profil S.A.,69.03,0.309,0.413,No,Steel,Basic Materials,
+16,CENER.AT,Cenergy Holdings SA,121.15,0.478,1.172,Yes,Electrical Equipment & Parts,Industrials,
+17,BOCHGR.AT,Bank of Cyprus Holdings Public Limited Company,48.35,0.25,1.217,Yes,Banks - Regional,Financial Services,1.3 - Strong Buy
+18,PERF.AT,Performance Technologies S.A.,81.76,0.386,0.437,Yes,Information Technology Services,Technology,0.0 - Strong Buy
+19,BRIQ.AT,BriQ Properties Real Estate Investment Company,19.63,0.121,0.235,Yes,REIT - Office,Real Estate,2.0 - Buy
+20,TREK.AT,Trek Development of Infrastructures and Services S.A.,106.18,0.515,0.255,Yes,Infrastructure Operations,Industrials,
+21,ADMIE.AT,Admie Holding S.A.,61.53,0.347,1.018,Yes,Utilities - Independent Power Producers,Utilities,
+22,KYSA.AT,Flour Mills C. Sarantopoulos S.A.,43.56,0.262,0.711,No,Packaged Foods,Consumer Defensive,
+23,HTO.AT,Hellenic Telecommunications Organization S.A.,34.64,0.221,0.195,Yes,Telecom Services,Communication Services,2.0 - Buy
+24,OPTIMA.AT,Optima bank S.A.,61.08,0.36,1.268,Yes,Banks - Regional,Financial Services,1.0 - Strong Buy
+25,ANDRO.AT,Alpha Trust Andromeda Investment Trust S.A.,29.37,0.193,0.838,Yes,Asset Management,Financial Services,
+26,AVAX.AT,Avax S.A.,59.3,0.366,1.285,Yes,Engineering & Construction,Industrials,
+27,EXAE.AT,Euronext Athens Holding S.A.,34.01,0.228,0.233,No,Financial Data & Stock Exchanges,Financial Services,
+28,TPEIR.AT,Piraeus Bank S.A.,64.2,0.395,1.971,Yes,Banks - Regional,Financial Services,1.2 - Strong Buy
+29,EEE.AT,Coca-Cola HBC AG,47.6,0.318,0.404,Yes,Beverages - Non-Alcoholic,Consumer Defensive,
+30,DIMAND.AT,Dimand S.A.,36.38,0.259,0.555,Yes,Real Estate Services,Real Estate,
+31,EIS.AT,European Innovation Solutions S.A.,81.06,0.501,0.347,Yes,Information Technology Services,Technology,
+32,TRESTATES.AT,Trade Estates REIC,19.59,0.159,0.443,Yes,REIT - Office,Real Estate,
+33,ASCO.AT,AS Commercial Industrial Company of Computers and Toys S.A.,24.93,0.206,0.456,Yes,Leisure,Consumer Cyclical,
+34,ALPHA.AT,Alpha Bank S.A.,39.96,0.32,1.672,Yes,Banks - Diversified,Financial Services,1.6 - Buy
+35,EUROB.AT,Eurobank S.A.,29.71,0.251,1.3,Yes,Banks - Regional,Financial Services,1.5 - Strong Buy
+36,ELSTR.AT,Elastron S.A. - Steel Service Centers,24.68,0.222,0.7,Yes,Steel,Basic Materials,
+37,CNLCAP.AT,Cnl Capital E.K.E.S. - AIFM,20.33,0.196,0.414,Yes,Asset Management,Financial Services,
+38,SAR.AT,Gr. Sarantis S.A.,17.41,0.186,0.225,Yes,Household & Personal Products,Consumer Defensive,1.0 - Strong Buy
+39,INTEK.AT,Ideal Holdings S.A.,22.54,0.241,0.575,Yes,Electronics & Computer Distribution,Technology,1.0 - Strong Buy
+40,NAKAS.AT,Philippos Nakas S.A.,16.5,0.186,0.255,Yes,Specialty Retail,Consumer Cyclical,
+41,REVOIL.AT,Revoil S.A.,15.59,0.179,0.334,Yes,Oil & Gas Refining & Marketing,Energy,
+42,DOMIK.AT,Domiki Kritis S.A.,46.44,0.495,1.101,Yes,Engineering & Construction,Industrials,
+43,ELHA.AT,Elvalhalcor Hellenic Copper and Aluminium Industry S.A.,55.83,0.579,1.888,Yes,Metal Fabrication,Industrials,
+44,SOFTWEB.AT,SOFTWeb Adaptive I.T. Solutions SA,77.87,0.763,0.092,Yes,Software - Application,Technology,
+45,ALMY.AT,Alumil Aluminium Industry S.A.,19.45,0.242,0.677,Yes,Aluminum,Basic Materials,
+46,MEDIC.AT,Medicon Hellas S.A.,15.94,0.202,0.485,Yes,Drug Manufacturers - Specialty & Generic,Healthcare,
+47,OLTH.AT,Thessaloniki Port Authority Societe Anonyme,18.06,0.232,0.328,Yes,Marine Shipping,Industrials,
+48,PAP.AT,Papoutsanis S.A.,31.97,0.397,0.058,Yes,Household & Personal Products,Consumer Defensive,
+49,LOGISMOS.AT,Logismos Information Systems S.A.,19.81,0.258,0.501,Yes,Software - Application,Technology,
+50,MIN.AT,J. & B. Ladenis Bros S.A. - Minerva - Knitwear Manufacturing Company,28.27,0.368,0.978,Yes,Textile Manufacturing,Consumer Cyclical,
+51,ORILINA.AT,Orilina Properties REIC S.A.,8.66,0.125,0.172,Yes,Real Estate Services,Real Estate,
+52,OTOEL.AT,Autohellas S.A.,15.56,0.235,1.183,Yes,Auto & Truck Dealerships,Consumer Cyclical,0.0 - Strong Buy
+53,FAIS.AT,Fais Holding Societe Anonyme,10.92,0.168,0.455,Yes,Specialty Retail,Consumer Cyclical,
+54,AIA.AT,Athens International Airport S.A.,9.42,0.16,0.594,Yes,Airports & Air Services,Industrials,3.0 - Hold
+55,KYLO.AT,Loulis Food Ingredients S.A.,6.4,0.113,0.451,Yes,Packaged Foods,Consumer Defensive,
+56,ILYDA.AT,Ilyda SA,39.93,0.676,0.74,No,Software - Application,Technology,
+57,LEBEK.AT,N. Leventeris S.A.,17.06,0.348,0.354,No,Steel,Basic Materials,
+58,AEM.AT,Alter Ego Media S.A.,9.78,0.231,0.856,Yes,Advertising Agencies,Communication Services,1.0 - Strong Buy
+59,MTLN.AT,Metlen Energy & Metals PLC,14.72,0.385,1.453,Yes,Utilities - Diversified,Utilities,1.5 - Strong Buy
+60,NAYP.AT,Nafpaktos Textile Industry S.A.,14.31,0.425,0.546,No,Textile Manufacturing,Consumer Cyclical,
+61,YKNOT.AT,Y/Knot Invest S.A.,22.14,0.841,3.512,Yes,Leisure,Consumer Cyclical,
+62,BIOSK.AT,Unibios Holdings S.A.,5.33,0.256,0.244,No,Pollution & Treatment Controls,Industrials,
+63,PLAKR.AT,Plastika Kritis S.A.,3.01,0.165,0.63,Yes,Specialty Chemicals,Basic Materials,
+64,ELTON.AT,Elton International Trading Company S.A.,3.87,0.215,0.202,Yes,Chemicals,Basic Materials,
+65,PREMIA.AT,Premia Real Estate Investment Company Societe Anonyme,1.39,0.145,0.221,Yes,Real Estate - Development,Real Estate,
+66,PPA.AT,Piraeus Port Authority S.A.,1.49,0.201,0.41,Yes,Marine Shipping,Industrials,
+67,MOTO.AT,Emporiki Eisagogiki Aftokiniton Ditrohon kai Mihanon Thalassis Societe Anonyme,0.36,0.17,0.224,Yes,Auto & Truck Dealerships,Consumer Cyclical,
+68,FOYRK.AT,Fourlis Holdings S.A.,-0.03,0.164,0.187,Yes,Specialty Retail,Consumer Cyclical,1.5 - Strong Buy
+69,MEVA.AT,Mevaco S.A.,-1.18,0.16,0.027,Yes,Steel,Basic Materials,
+70,INTET.AT,Intertech S.A. Inter. Technologies,-2.74,0.312,0.758,Yes,Electronics & Computer Distribution,Technology,
+71,MASTIHA.AT,Mediterra S.A.,-1.06,0.082,0.087,No,Household & Personal Products,Consumer Defensive,
+72,BYLOT.AT,Bally's Intralot S.A.,-4.65,0.335,0.653,Yes,Gambling,Consumer Cyclical,1.5 - Strong Buy
+73,BELA.AT,Jumbo S.A.,-4.46,0.234,0.437,Yes,Specialty Retail,Consumer Cyclical,1.3 - Strong Buy
+74,FLEXO.AT,Flexopack Société Anonyme Commercial and Industrial Plastics Company,-3.85,0.132,0.439,Yes,Packaging & Containers,Consumer Cyclical,
+75,AAAK.AT,Wool Industry Tria Alfa S.A.,-20.0,0.628,0.705,Yes,Textile Manufacturing,Consumer Cyclical,
+76,MATHIO.AT,Mathios Refractories S.A.,-17.73,0.531,1.526,Yes,Building Materials,Basic Materials,
+77,MIG.AT,MIG Holdings S.A.,-7.95,0.221,0.932,Yes,Real Estate Services,Real Estate,
+78,KORDE.AT,Kordellos Ch. Bros S.A.,-9.8,0.254,0.88,Yes,Steel,Basic Materials,
+79,PVMEZZ.AT,Phoenix Vega Mezz Plc,-14.96,0.37,0.273,Yes,Asset Management,Financial Services,
+80,DROME.AT,Dromeas SA,-9.43,0.214,0.508,Yes,"Furnishings, Fixtures & Appliances",Consumer Cyclical,
+81,PETRO.AT,Petros Petropoulos AEVE,-5.98,0.131,0.44,Yes,Farm & Heavy Construction Machinery,Industrials,
+82,MERKO.AT,Mermeren Kombinat AD,-8.89,0.197,0.159,Yes,Other Industrial Metals & Mining,Basic Materials,
+83,BIOKA.AT,Biokarpet S.A.,-8.89,0.19,0.458,Yes,Textile Manufacturing,Consumer Cyclical,
+84,EVR.AT,Evropi Holdings Societe Anonyme,-13.01,0.273,0.946,Yes,Insurance Brokers,Financial Services,
+85,PAIR.AT,E. Pairis S.A.,-13.69,0.253,0.519,Yes,Packaging & Containers,Consumer Cyclical,
+86,GCMEZZ.AT,Galaxy Cosmos Mezz Plc,-22.33,0.419,1.086,Yes,Asset Management,Financial Services,
+87,SUNMEZZ.AT,SunriseMezz PLC,-23.89,0.407,0.851,Yes,Credit Services,Financial Services,
+88,KEKR.AT,Kekrops S.A.,-23.7,0.357,1.615,Yes,Real Estate - Development,Real Estate,
+89,FRIGO.AT,Frigoglass S.A.I.C.,-22.16,0.33,0.988,Yes,Specialty Industrial Machinery,Industrials,
+90,VOSYS.AT,Vogiatzoglou Systems S.A.,-8.34,0.115,0.233,Yes,"Furnishings, Fixtures & Appliances",Consumer Cyclical,
+91,ATTICA.AT,Attica Holdings S.A.,-17.97,0.259,0.634,Yes,Marine Shipping,Industrials,
+92,ELIN.AT,Elinoil Hellenic Petroleum Company S.A.,-11.39,0.148,0.187,Yes,Oil & Gas Refining & Marketing,Energy,
+93,IKTIN.AT,Iktinos Hellas S.A. Greek Marble Industry Technical and Touristic Company,-20.45,0.27,0.959,Yes,Building Products & Equipment,Industrials,
+94,AVE.AT,AVE S.A.,-11.49,0.143,0.135,No,Entertainment,Communication Services,
+95,LANAC.AT,Lanakam S.A.,-34.28,0.481,0.811,No,Textile Manufacturing,Consumer Cyclical,
+96,CAIROMEZ.AT,Cairo Mezz Plc,-37.42,0.528,0.506,Yes,Capital Markets,Financial Services,
+97,CPI.AT,CPI Computer Peripherals International,-19.74,0.245,0.888,Yes,Information Technology Services,Technology,
+98,TRASTOR.AT,Trastor Real Estate Investment Company SA,-23.4,0.293,0.185,No,REIT - Diversified,Real Estate,
+99,LAMDA.AT,LAMDA Development S.A.,-17.8,0.2,0.718,Yes,Real Estate - Development,Real Estate,1.0 - Strong Buy
+100,ALWN.AT,Allwyn AG,-25.17,0.294,0.799,Yes,Gambling,Consumer Cyclical,2.8 - Hold
+101,IATR.AT,Athens Medical C.S.A.,-21.62,0.23,0.395,Yes,Medical Care Facilities,Healthcare,
+102,CENTR.AT,Centric Holdings S.A.,-15.37,0.15,0.412,Yes,Asset Management,Financial Services,
+103,ONYX.AT,Onyx Touristiki Societe Anonyme,-32.45,0.332,0.03,No,Real Estate - Diversified,Real Estate,
+104,CREDIA.AT,CrediaBank S.A.,-36.19,0.311,0.656,Yes,Banks - Regional,Financial Services,
+105,MOYZK.AT,EL. D. Mouzakis S.A.,-27.34,0.212,0.19,Yes,Textile Manufacturing,Consumer Cyclical,
+106,ATEK.AT,Attica Publications S.A.,-36.79,0.15,0.041,No,Publishing,Communication Services,
+107,ADPS.AT,Attica Department Stores S.A.,-33.96,,,,Department Stores,Consumer Cyclical,
