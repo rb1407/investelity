@@ -44,11 +44,15 @@ def calc_stats(prices):
 Calculate asset volatility, relative to market index
 """
 def calc_beta(returns, index, return_stats):
+    MIN_OBS = 3
     for i in returns.columns:
        if i != index:
          y = returns[i]
          x = returns[index]
          x = sm.add_constant(x)
+         index_valid = x.notna()
+         if (y.notna() & index_valid).sum() < MIN_OBS:
+             continue
          model = sm.OLS(y,x, missing = 'drop').fit()
          return_stats.loc[i, 'beta'] = model.params.iloc[1]
 
