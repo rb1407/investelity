@@ -1,0 +1,113 @@
+name: Investelity Add Info
+
+# Runs add_info.py (industry/sector/analyst-rating enrichment) on its own,
+# separate from investelity-pipeline.yml. add_info.py makes one yfinance
+# network call per ticker (get_info()) instead of pull_prices.py's batched
+# 500-ticker downloads, so it gets rate-limited far more easily -- this
+# needs its own resumable, self-chaining job for the same reason
+# pull_prices.py has one.
+#
+# Requires final/ to already be populated, i.e. investelity-pipeline.yml's
+# "finalize" stage (clean_prices/asset_analysis/clean_returns/create_viz)
+# has already completed successfully. This workflow only reads final/ and
+# writes database/ -- it doesn't touch anything upstream of that.
+#
+# How it works: each run calls add_info.py for up to ~5h40m. add_info.py
+# checkpoints its own progress (per country/period file, and mid-file every
+# 200 tickers, since a single file like usf's ~79,000 tickers can easily
+# outlast one job) by committing to database_partial/ and skips anything
+# already finished in database/ on the next run. After each run, this
+# workflow commits whatever changed, checks whether any country/period file
+# is still missing from database/, and if so dispatches a fresh run of
+# itself. This repeats until every file is done, so your laptop being off
+# doesn't matter once you've clicked Run.
+#
+# Start it from the Actions tab -> "Investelity Add Info" -> "Run workflow".
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: write
+
+env:
+  PYTHON_VERSION: "3.11"
+
+jobs:
+  add_info:
+    runs-on: ubuntu-latest
+    # Leaves ~20 minutes of the 6-hour job budget for checkout/setup/commit/dispatch.
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - run: pip install pandas yfinance openpyxl
+
+      - name: add_info.py (time-boxed to 5h40m)
+        id: run
+        run: |
+          set +e
+          timeout 20400 python3 add_info.py
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" -ne 0 ] && [ "$code" -ne 124 ]; then
+            echo "::error::add_info.py exited with code $code (not a timeout -- this is a real error, not just running out of time). Stopping the auto-chain so this doesn't loop forever; whatever it wrote before crashing is still committed below."
+          fi
+          exit 0
+
+      - name: Commit progress
+        run: |
+          git config user.name "investelity-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Checkpoint: add_info.py progress [skip ci]"
+          git push
+
+      - name: Check remaining work
+        if: steps.run.outputs.exit_code == '0' || steps.run.outputs.exit_code == '124'
+        id: check
+        run: |
+          python3 - <<'EOF'
+          import os, time
+
+          year = time.localtime().tm_year
+          month = time.localtime().tm_mon
+
+          remaining = []
+          for period in ["1y", "3y"]:
+              src_dir = f"final/{period}/{month-1}_{year}"
+              if not os.path.isdir(src_dir):
+                  continue
+              for f in os.listdir(src_dir):
+                  if f == "markets.csv":
+                      continue
+                  if not os.path.exists(f"database/{period}/{month-1}_{year}/{f}"):
+                      remaining.append(f"{period}/{f}")
+
+          preview = remaining[:10]
+          suffix = "..." if len(remaining) > 10 else ""
+          print(f"{len(remaining)} file(s) remaining: {preview}{suffix}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+              fh.write(f"remaining={len(remaining)}\n")
+          EOF
+
+      - name: Continue if work remains
+        if: steps.run.outputs.exit_code == '0' || steps.run.outputs.exit_code == '124'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "${{ steps.check.outputs.remaining }}" != "0" ]; then
+            echo "Work remains -- dispatching another add_info run."
+            gh workflow run add-info-pipeline.yml
+          else
+            echo "add_info.py is fully done -- nothing further to dispatch."
+          fi
+
+      - name: Stop -- add_info.py crashed (not a timeout)
+        if: steps.run.outputs.exit_code != '0' && steps.run.outputs.exit_code != '124'
+        run: |
+          echo "::error::add_info.py crashed with exit code ${{ steps.run.outputs.exit_code }}. Not re-dispatching -- fix the script, then manually re-run this workflow."
+          exit 1
