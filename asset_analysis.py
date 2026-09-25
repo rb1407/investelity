@@ -24,6 +24,7 @@ def calc_returns(prices):
     prices = prices.iloc[1:, :]
     lag = lag.iloc[1:, :]
     returns = (prices - lag)/lag
+    returns = returns.replace([np.inf, -np.inf], np.nan)
     returns = returns.dropna(how = "all", axis = 1).dropna(how = "all", axis = 0)
     return returns
 
