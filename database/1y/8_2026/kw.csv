@@ -12,7 +12,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 11,NICBM.KW,National Industries Company - KPSC,29.37,0.278,Building Products & Equipment,Industrials,
 12,GFH.KW,GFH Bank B.S.C.,43.55,0.402,Banks - Regional,Financial Services,
 13,ALG.KW,Ali Al-Ghanim Sons Automotive Company K.S.C.P.,12.12,0.138,Auto & Truck Dealerships,Consumer Cyclical,
-14,MABANEE.KW,Mabanee Company K.P.S.C.,23.53,0.272,Real Estate - Diversified,Real Estate,1.8 - Buy
+14,MABANEE.KW,Mabanee Company K.P.S.C.,23.53,0.272,Real Estate - Diversified,Real Estate,
 15,TAM.KW,Tamdeen Real Estate Company - KPSC,11.03,0.135,Real Estate - Diversified,Real Estate,
 16,SENERGY.KW,Senergy Holding Company K.S.C.P.,41.18,0.488,Oil & Gas Equipment & Services,Energy,
 17,JTC.KW,JTC Logistics Transportation & Stevedoring Co. K.S.C.P.,16.64,0.22,Trucking,Industrials,
