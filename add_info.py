@@ -1,4 +1,4 @@
-import pandas as pd, os, time
+import pandas as pd, os, time, logging
 import yfinance as yf
 year = time.localtime().tm_year
 month = time.localtime().tm_mon
@@ -26,9 +26,11 @@ for i in ['1y', '3y']:
             yf_logger = logging.getLogger('yfinance')
             catcher = _RateLimitCatcher()
             yf_logger.addHandler(catcher)
+            r = returns.index[j]
             try:
-               t = yf.Ticker(returns.index[j])
-
+               t = yf.Ticker(r)
+               info = t.get_info()
+                
             finally:
                yf_logger.removeHandler(catcher)
 
@@ -36,7 +38,6 @@ for i in ['1y', '3y']:
                 time.sleep(7200)
                 continue
                 
-            info = t.get_info()
             returns.loc[r,'Industry'] = info.get('industry')
             returns.loc[r, 'Sector'] = info.get('sector')
             returns.loc[r, 'Rating'] = info.get('averageAnalystRating')
