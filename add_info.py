@@ -14,9 +14,9 @@ for i in ['1y', '3y']:
           for r in returns.index:
              t = yf.Ticker(r)
              info = t.get_info()
-             returns.loc[r,'Industry'] = info['industry']
-             returns.loc[r, 'Sector'] = info['sector']
-             returns.loc[r, 'Rating'] = info['averageAnalystRating']
+             returns.loc[r,'Industry'] = info.get('industry')
+             returns.loc[r, 'Sector'] = info.get('sector')
+             returns.loc[r, 'Rating'] = info.get('averageAnalystRating')
 
           returns = returns.reset_index() 
           cols = list(returns.columns)
