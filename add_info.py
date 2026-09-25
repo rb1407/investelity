@@ -3,6 +3,15 @@ import yfinance as yf
 year = time.localtime().tm_year
 month = time.localtime().tm_mon
 
+class _RateLimitCatcher(logging.Handler):
+    def __init__(self):
+        super().__init__(level = logging.ERROR)
+        self.hit = False
+
+    def emit(self, record):
+        if "YFRateLimitError" in record.getMessage():
+            self.hit = True
+
 for i in ['1y', '3y']:
     os.makedirs(f"database/{i}/{month-1}_{year}", exist_ok = True)
 
@@ -11,12 +20,27 @@ for i in ['1y', '3y']:
       files.remove("markets.csv")
       for f in files:
           returns = pd.read_csv(f"final/{i}/{month-1}_{year}/{f}").set_index('Ticker')
-          for r in returns.index:
-             t = yf.Ticker(r)
+          num_ticks = len(list(returns.index))
+          j = 0
+          while j < num_ticks:
+            yf_logger = logging.getLogger('yfinance')
+            catcher = _RateLimitCatcher()
+            yf_logger.addHandler(catcher)
+            try:
+               t = yf.Ticker(returns.index[j])
+
+            finally:
+               yf_logger.removeHandler(catcher)
+
+            if catcher.hit:
+                time.sleep(7200)
+                continue
+                
              info = t.get_info()
              returns.loc[r,'Industry'] = info.get('industry')
              returns.loc[r, 'Sector'] = info.get('sector')
              returns.loc[r, 'Rating'] = info.get('averageAnalystRating')
+             j+=1
 
           returns = returns.reset_index() 
           cols = list(returns.columns)
