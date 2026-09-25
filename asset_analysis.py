@@ -49,7 +49,7 @@ def calc_beta(returns, index, return_stats):
          y = returns[i]
          x = returns[index]
          x = sm.add_constant(x)
-         model = sm.OLS(y,x).fit()
+         model = sm.OLS(y,x, missing = 'drop').fit()
          return_stats.loc[i, 'beta'] = model.params.iloc[1]
 
     return_stats.loc[index, 'beta']  = 1.0
