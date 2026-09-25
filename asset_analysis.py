@@ -26,7 +26,6 @@ def calc_returns(prices):
     returns = (prices - lag)/lag
     returns = returns.replace([np.inf, -np.inf], np.nan)
     returns = returns.dropna(how = "all", axis = 1).dropna(how = "all", axis = 0)
-    returns = returns.loc[:, ~returns.columns.duplicated()]
     return returns
 
 """
@@ -51,7 +50,7 @@ def calc_beta(returns, index, return_stats):
          y = returns[i]
          x = returns[index]
          x = sm.add_constant(x)
-         index_valid = x.notna()
+         index_valid = returns[index].notna()
          if (y.notna() & index_valid).sum() < MIN_OBS:
              continue
          model = sm.OLS(y,x, missing = 'drop').fit()
