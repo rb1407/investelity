@@ -8,7 +8,7 @@ It comprises the following Python scripts :
 1. ___```market_index.py``` :___ To rank stock markets around the world, based on the respective performances of their market indices over the last 1 and 3 years, in terms of risk-adjusted return.
 2. ___```pull_tickers.py``` :___ To pull a list of tickers for every equity and US-based fund around the world, listed on YahooFinance. Takes around *15 minutes* to run.
 3. ___```pull_prices.py``` :___ To pull daily price data for the past 3 years for all tickers available from YahooFinance. Takes around *24 hours* to run.
-4. ___```clean_prices.py``` :____ To drop assets for which the API price call returned erroneous (e.g. negative) data. Takes around *30 minutes* to run.
+4. ___```clean_prices.py``` :____ To drop assets for which the API price call returned erroneous (e.g. negative) data. Takes around *5 minutes* to run.
 5. ___```asset_analysis.py``` :___ To calculate annualized return, risk and volatility for each equity and US-based fund (based on both 1-year and 3-year prices) using monthly holding period returns (HPRs), and subsequently rank them on the basis of risk-adjusted return. Takes around *10 minutes* to run.
 6. ___```clean_returns.py``` :___ To drop equities and US-based funds with outlier (unrealistic) returns.
 7. ___```create_viz.py``` :___ To create Tableau-ready datasets for visualization.
