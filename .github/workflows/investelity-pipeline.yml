@@ -165,8 +165,6 @@ jobs:
         run: python3 clean_returns.py
       - name: create_viz.py
         run: python3 create_viz.py
-      - name: add_info.py
-        run: python3 add_info.py
 
       - name: Commit final results
         run: |
