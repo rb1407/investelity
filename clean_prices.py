@@ -27,7 +27,7 @@ for i in looper:
        prices = pd.read_csv(f"prices/{j}/{month-1}_{year}/{i}.csv").set_index('Date')
        
        # Drop negative prices
-       col = prices.columns[(prices < 0).any()] 
+       col = prices.columns[(prices <= 0).any()] 
        prices = prices.drop(columns = col)
        
        prices = drop_outliers(prices)
