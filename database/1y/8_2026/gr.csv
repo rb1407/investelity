@@ -30,7 +30,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 29,EEE.AT,Coca-Cola HBC AG,47.6,0.318,0.404,Yes,Beverages - Non-Alcoholic,Consumer Defensive,
 30,DIMAND.AT,Dimand S.A.,36.38,0.259,0.555,Yes,Real Estate Services,Real Estate,
 31,EIS.AT,European Innovation Solutions S.A.,81.06,0.501,0.347,Yes,Information Technology Services,Technology,
-32,TRESTATES.AT,Trade Estates REIC,19.59,0.159,0.443,Yes,REIT - Office,Real Estate,2.0 - Buy
+32,TRESTATES.AT,Trade Estates REIC,19.59,0.159,0.443,Yes,REIT - Office,Real Estate,
 33,ASCO.AT,AS Commercial Industrial Company of Computers and Toys S.A.,24.93,0.206,0.456,Yes,Leisure,Consumer Cyclical,
 34,ALPHA.AT,Alpha Bank S.A.,39.96,0.32,1.672,Yes,Banks - Diversified,Financial Services,1.6 - Buy
 35,EUROB.AT,Eurobank S.A.,29.71,0.251,1.3,Yes,Banks - Regional,Financial Services,1.5 - Strong Buy
