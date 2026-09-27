@@ -45,7 +45,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 44,6942.T,"Sophia Holdings Co.,Ltd.",23.1,0.089,0.053,Yes,Information Technology Services,Technology,
 45,2810.T,House Foods Group Inc.,45.97,0.164,0.078,Yes,Packaged Foods,Consumer Defensive,2.0 - Buy
 46,8316.T,"Sumitomo Mitsui Financial Group, Inc.",83.75,0.267,0.31,Yes,Banks - Diversified,Financial Services,1.8 - Buy
-47,4972.T,"Soken Chemical & Engineering Co., Ltd.",108.73,0.325,0.346,Yes,Specialty Chemicals,Basic Materials,
+47,4972.T,"Soken Chemical & Engineering Co., Ltd.",108.73,0.325,0.346,Yes,Specialty Chemicals,Basic Materials,0.0 - Strong Buy
 48,3964.T,Aucnet Inc.,71.6,0.237,0.417,Yes,Internet Retail,Consumer Cyclical,1.0 - Strong Buy
 49,7781.T,"HIRAYAMA HOLDINGS Co.,Ltd.",75.14,0.246,0.017,Yes,Staffing & Employment Services,Industrials,
 50,9934.T,"Inaba Denki Sangyo Co.,Ltd.",57.64,0.199,0.221,Yes,Industrial Distribution,Industrials,
@@ -54,7 +54,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 53,8065.T,Sato Shoji Corporation,110.92,0.332,0.346,Yes,Steel,Basic Materials,
 54,8306.T,"Mitsubishi UFJ Financial Group, Inc.",66.88,0.226,0.202,Yes,Banks - Diversified,Financial Services,1.7 - Buy
 55,2286.T,"Hayashikane Sangyo Co.,Ltd.",44.94,0.164,0.145,No,Packaged Foods,Consumer Defensive,
-56,7180.T,"Kyushu Financial Group, Inc.",93.49,0.297,0.458,Yes,Banks - Regional,Financial Services,1.5 - Strong Buy
+56,7180.T,"Kyushu Financial Group, Inc.",93.49,0.297,0.458,Yes,Banks - Regional,Financial Services,
 57,4118.T,Kaneka Corporation,59.3,0.208,0.353,Yes,Specialty Chemicals,Basic Materials,3.0 - Hold
 58,9274.T,"Kpp Group Holdings Co., Ltd.",50.1,0.182,0.131,Yes,Paper & Paper Products,Basic Materials,
 59,3708.T,"Tokushu Tokai Paper Co., Ltd.",51.39,0.188,0.066,No,Paper & Paper Products,Basic Materials,
@@ -152,7 +152,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 151,3167.T,TOKAI Holdings Corporation,32.21,0.17,0.056,No,Conglomerates,Industrials,
 152,287A.T,"Kuroda Group Co., Ltd.",53.66,0.264,0.361,Yes,Conglomerates,Industrials,
 153,6316.T,"Maruyama Mfg. Co., Inc.",42.04,0.215,0.304,Yes,Farm & Heavy Construction Machinery,Industrials,
-154,8242.T,H2O Retailing Corporation,50.1,0.25,0.123,Yes,Grocery Stores,Consumer Defensive,2.5 - Buy
+154,8242.T,H2O Retailing Corporation,50.1,0.25,0.123,Yes,Grocery Stores,Consumer Defensive,
 155,6863.T,Nireco Corporation,78.04,0.358,0.556,Yes,Scientific & Technical Instruments,Technology,
 156,9119.T,"Iino Kaiun Kaisha, Ltd.",65.25,0.311,0.336,No,Marine Shipping,Industrials,0.0 - Strong Buy
 157,1860.T,Toda Corporation,67.42,0.32,0.348,Yes,Engineering & Construction,Industrials,
@@ -177,7 +177,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 176,1963.T,JGC Holdings Corporation,76.11,0.361,0.387,Yes,Engineering & Construction,Industrials,
 177,6135.T,"Makino Milling Machine Co., Ltd.",44.44,0.233,0.252,Yes,Specialty Industrial Machinery,Industrials,
 178,5922.T,"Nasu Denki-Tekko Co., Ltd.",53.6,0.273,0.217,Yes,Metal Fabrication,Industrials,
-179,8508.T,"J Trust Co., Ltd.",82.39,0.385,0.333,Yes,Financial Conglomerates,Financial Services,
+179,8508.T,"J Trust Co., Ltd.",82.39,0.385,0.333,Yes,Financial Conglomerates,Financial Services,0.0 - Strong Buy
 180,2702.T,"McDonald's Holdings Company (Japan), Ltd.",36.82,0.199,0.381,No,Restaurants,Consumer Cyclical,
 181,6474.T,Nachi-Fujikoshi Corp.,68.78,0.335,0.819,Yes,Tools & Accessories,Industrials,
 182,9507.T,"Shikoku Electric Power Company, Incorporated",64.53,0.319,0.344,No,Utilities - Regulated Electric,Utilities,
@@ -240,7 +240,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 239,2795.T,Nippon Primex Inc.,13.83,0.088,0.079,Yes,Specialty Industrial Machinery,Industrials,
 240,9906.T,Fujii Sangyo Corporation,34.84,0.205,0.079,Yes,Specialty Industrial Machinery,Industrials,
 241,2760.T,Tokyo Electron Device Limited,60.18,0.326,0.599,Yes,Electronic Components,Technology,
-242,4064.T,"Nippon Carbide Industries Co., Inc.",75.96,0.392,0.568,Yes,Specialty Chemicals,Basic Materials,
+242,4064.T,"Nippon Carbide Industries Co., Inc.",75.96,0.392,0.568,Yes,Specialty Chemicals,Basic Materials,0.0 - Strong Buy
 243,6918.T,Aval Data Corporation,72.2,0.377,0.447,Yes,Computer Hardware,Technology,
 244,4238.T,"Miraial Co., Ltd.",93.81,0.462,0.918,Yes,Semiconductor Equipment & Materials,Technology,
 245,6282.T,Oiles Corporation,35.35,0.208,0.299,Yes,Tools & Accessories,Industrials,
@@ -308,7 +308,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 307,1994.T,Takahashi Curtain Wall Corporation,34.63,0.223,0.309,Yes,Building Products & Equipment,Industrials,
 308,6470.T,"Taiho Kogyo Co., Ltd.",76.52,0.431,0.304,Yes,Auto Parts,Consumer Cyclical,
 309,8046.T,"Marufuji Sheet Piling Co.,Ltd.",48.29,0.297,0.375,No,Steel,Basic Materials,
-310,7244.T,"Ichikoh Industries, Ltd.",39.45,0.251,0.368,Yes,Auto Parts,Consumer Cyclical,
+310,7244.T,"Ichikoh Industries, Ltd.",39.45,0.251,0.368,Yes,Auto Parts,Consumer Cyclical,3.0 - Hold
 311,4243.T,"Nix, Inc.",39.69,0.253,0.489,Yes,Specialty Chemicals,Basic Materials,
 312,2185.T,CMC Corporation,21.72,0.148,0.091,No,Information Technology Services,Technology,
 313,6794.T,"Foster Electric Company, Limited",39.47,0.253,0.505,Yes,Consumer Electronics,Technology,
@@ -460,7 +460,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 459,7971.T,TOLI Corporation,33.53,0.258,0.18,Yes,Building Products & Equipment,Industrials,
 460,6920.T,Lasertec Corporation,110.71,0.68,1.202,Yes,Semiconductor Equipment & Materials,Technology,2.2 - Buy
 461,6643.T,"Togami Electric Mfg. Co., Ltd.",61.99,0.436,0.501,Yes,Electrical Equipment & Parts,Industrials,
-462,7065.T,UPR Corporation,44.68,0.332,0.184,Yes,Rental & Leasing Services,Industrials,0.0 - Strong Buy
+462,7065.T,UPR Corporation,44.68,0.332,0.184,Yes,Rental & Leasing Services,Industrials,
 463,3435.T,"Sanko Techno Co., Ltd.",20.98,0.17,0.205,Yes,Metal Fabrication,Industrials,
 464,9368.T,"Kimura Unity Co., Ltd.",16.22,0.135,0.002,Yes,Specialty Business Services,Industrials,
 465,3186.T,"NEXTAGE Co., Ltd.",65.98,0.461,0.721,Yes,Auto & Truck Dealerships,Consumer Cyclical,
@@ -562,7 +562,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 561,8157.T,"Tsuzuki Denki Co., Ltd.",40.75,0.339,0.417,Yes,Conglomerates,Industrials,
 562,4956.T,"Konishi Co., Ltd.",16.87,0.153,0.002,Yes,Specialty Chemicals,Basic Materials,
 563,7501.T,Tiemco Ltd.,54.11,0.431,0.41,Yes,Specialty Retail,Consumer Cyclical,
-564,7366.T,LITALICO Inc.,60.79,0.474,0.505,Yes,Education & Training Services,Consumer Defensive,1.5 - Strong Buy
+564,7366.T,LITALICO Inc.,60.79,0.474,0.505,Yes,Education & Training Services,Consumer Defensive,
 565,1965.T,Techno Ryowa Ltd.,64.7,0.499,0.729,Yes,Engineering & Construction,Industrials,
 566,4042.T,Tosoh Corporation,31.15,0.269,0.543,Yes,Chemicals,Basic Materials,2.6 - Hold
 567,7134.T,"UP GARAGE GROUP Co., Ltd.",30.29,0.263,0.077,No,Auto & Truck Dealerships,Consumer Cyclical,
@@ -669,7 +669,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 668,6266.T,"Tazmo Co., Ltd.",84.94,0.701,1.454,Yes,Semiconductor Equipment & Materials,Technology,
 669,4657.T,"Environmental Control Center Co.,Ltd.",12.28,0.129,0.144,Yes,Waste Management,Industrials,
 670,7581.T,"Saizeriya Co.,Ltd.",70.52,0.608,0.606,No,Restaurants,Consumer Cyclical,1.7 - Buy
-671,9837.T,"Morito Co., Ltd.",25.65,0.257,0.3,Yes,Apparel Retail,Consumer Cyclical,
+671,9837.T,"Morito Co., Ltd.",25.65,0.257,0.3,Yes,Apparel Retail,Consumer Cyclical,0.0 - Strong Buy
 672,4521.T,"Kaken Pharmaceutical Co., Ltd.",14.28,0.15,0.054,Yes,Drug Manufacturers - Specialty & Generic,Healthcare,
 673,6806.T,"Hirose Electric Co.,Ltd.",68.8,0.597,1.221,Yes,Electronic Components,Technology,1.9 - Buy
 674,6268.T,Nabtesco Corporation,67.92,0.592,1.496,Yes,Specialty Industrial Machinery,Industrials,2.5 - Buy
@@ -703,7 +703,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 702,8097.T,"San-Ai Obbli Co., Ltd.",24.41,0.253,0.135,No,Oil & Gas Refining & Marketing,Energy,
 703,4992.T,"Hokko Chemical Industry Co., Ltd.",31.3,0.317,0.4,Yes,Agricultural Inputs,Basic Materials,
 704,7058.T,"Kyoei Security Service Co., Ltd.",13.46,0.147,0.128,Yes,Security & Protection Services,Industrials,
-705,7911.T,TOPPAN Holdings Inc.,56.31,0.526,0.556,Yes,Conglomerates,Industrials,
+705,7911.T,TOPPAN Holdings Inc.,56.31,0.526,0.556,Yes,Conglomerates,Industrials,1.2 - Strong Buy
 706,9236.T,Japan M&A Solution Incorporated,43.36,0.423,0.318,No,Consulting Services,Industrials,
 707,1433.T,"Besterra Co., Ltd.",38.08,0.378,0.053,Yes,Engineering & Construction,Industrials,
 708,1867.T,UEKI Corporation,27.1,0.28,0.053,No,Engineering & Construction,Industrials,
@@ -752,7 +752,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 751,3447.T,"Shinwa Co., Ltd.",27.55,0.296,0.096,No,Metal Fabrication,Industrials,
 752,3608.T,"TSI Holdings Co.,Ltd.",33.39,0.351,0.179,Yes,Apparel Manufacturing,Consumer Cyclical,
 753,2894.T,"Ishii Food Co., Ltd.",12.24,0.14,0.075,Yes,Packaged Foods,Consumer Defensive,
-754,3433.T,"TOCALO Co.,Ltd.",45.17,0.456,1.051,Yes,Specialty Business Services,Industrials,
+754,3433.T,"TOCALO Co.,Ltd.",45.17,0.456,1.051,Yes,Specialty Business Services,Industrials,1.0 - Strong Buy
 755,7885.T,"Takano Co.,Ltd.",107.98,0.912,1.088,Yes,"Furnishings, Fixtures & Appliances",Consumer Cyclical,
 756,6762.T,TDK Corporation,95.16,0.833,2.016,Yes,Electronic Components,Technology,1.8 - Buy
 757,5344.T,"Maruwa Co.,Ltd.",66.57,0.632,1.409,Yes,Electronic Components,Technology,1.2 - Strong Buy
@@ -767,7 +767,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 766,7305.T,"Araya Industrial Co., Ltd.",19.26,0.217,0.264,Yes,Steel,Basic Materials,
 767,7014.T,"Namura Shipbuilding Co., Ltd.",95.35,0.845,1.215,Yes,Aerospace & Defense,Industrials,
 768,7795.T,"Kyoritsu Co.,Ltd.",24.1,0.268,0.067,Yes,Conglomerates,Industrials,
-769,4902.T,"Konica Minolta, Inc.",41.79,0.437,0.034,No,Business Equipment & Supplies,Industrials,2.8 - Hold
+769,4902.T,"Konica Minolta, Inc.",41.79,0.437,0.034,No,Business Equipment & Supplies,Industrials,
 770,3766.T,"Systems Design Co., Ltd.",13.7,0.159,0.075,No,Information Technology Services,Technology,
 771,4440.T,WITZ Corporation,85.87,0.785,0.413,No,Software - Application,Technology,
 772,4386.T,"SIG Group Co., Ltd.",20.76,0.236,0.105,No,Information Technology Services,Technology,
@@ -959,7 +959,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 958,7271.T,Yasunaga Corporation,42.01,0.571,0.884,Yes,Auto Parts,Consumer Cyclical,
 959,3861.T,Oji Holdings Corporation,15.35,0.231,0.045,No,Paper & Paper Products,Basic Materials,2.9 - Hold
 960,4975.T,JCU Corporation,40.84,0.56,1.292,Yes,Specialty Chemicals,Basic Materials,
-961,4554.T,"Fuji Pharma Co., Ltd.",26.16,0.378,0.103,Yes,Drug Manufacturers - Specialty & Generic,Healthcare,
+961,4554.T,"Fuji Pharma Co., Ltd.",26.16,0.378,0.103,Yes,Drug Manufacturers - Specialty & Generic,Healthcare,2.0 - Buy
 962,215A.T,"Timee, Inc.",33.65,0.474,0.016,No,Staffing & Employment Services,Industrials,2.3 - Buy
 963,7593.T,"Vt Holdings Co.,Ltd.",15.93,0.24,0.015,No,Auto & Truck Dealerships,Consumer Cyclical,
 964,1968.T,"Taihei Dengyo Kaisha, Ltd.",32.64,0.462,0.403,Yes,Engineering & Construction,Industrials,
@@ -1098,7 +1098,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 1097,3320.T,Cross Plus Inc.,8.14,0.155,0.102,Yes,Apparel Manufacturing,Consumer Cyclical,
 1098,479A.T,"PRONI, Inc.",45.81,0.756,0.468,Yes,Software - Infrastructure,Technology,
 1099,7840.T,"France Bed Holdings Co., Ltd.",4.94,0.095,0.014,Yes,"Furnishings, Fixtures & Appliances",Consumer Cyclical,
-1100,4362.T,"Nippon Fine Chemical Co., Ltd.",13.43,0.251,0.082,Yes,Specialty Chemicals,Basic Materials,
+1100,4362.T,"Nippon Fine Chemical Co., Ltd.",13.43,0.251,0.082,Yes,Specialty Chemicals,Basic Materials,0.0 - Strong Buy
 1101,6845.T,Azbil Corporation,15.3,0.284,0.555,Yes,Specialty Industrial Machinery,Industrials,1.8 - Buy
 1102,7021.T,"Nitchitsu Co., Ltd.",16.49,0.305,0.019,No,Specialty Industrial Machinery,Industrials,
 1103,8928.T,Anabuki Kosan Inc.,17.73,0.326,0.296,Yes,Real Estate Services,Real Estate,
@@ -1304,7 +1304,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 1303,368A.T,Kitazato Corporation,9.51,0.301,0.143,No,Medical Instruments & Supplies,Healthcare,
 1304,5240.T,"monoAI technology Co.,Ltd.",34.16,0.983,1.408,No,Software - Infrastructure,Technology,
 1305,7269.T,Suzuki Motor Corporation,11.14,0.353,0.415,Yes,Auto Manufacturers,Consumer Cyclical,1.6 - Buy
-1306,5574.T,"ABEJA, Inc.",15.85,0.494,0.144,No,Software - Infrastructure,Technology,0.0 - Strong Buy
+1306,5574.T,"ABEJA, Inc.",15.85,0.494,0.144,No,Software - Infrastructure,Technology,
 1307,8803.T,"Heiwa Real Estate Co., Ltd.",4.97,0.163,0.068,Yes,Real Estate - Diversified,Real Estate,
 1308,3653.T,"Morpho, Inc.",26.96,0.807,0.447,Yes,Software - Application,Technology,
 1309,2206.T,"Ezaki Glico Co., Ltd.",5.97,0.195,0.026,No,Packaged Foods,Consumer Defensive,
@@ -1315,7 +1315,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 1314,5214.T,"Nippon Electric Glass Co., Ltd.",18.25,0.574,0.83,Yes,Electronic Components,Technology,
 1315,2220.T,"Kameda Seika Co.,Ltd.",8.12,0.267,0.275,No,Packaged Foods,Consumer Defensive,
 1316,334A.T,"Visual Processing Japan Co., Ltd.",21.99,0.687,0.57,No,Software - Application,Technology,
-1317,4251.T,KEIWA Incorporated,7.13,0.237,0.264,Yes,Electronic Components,Technology,
+1317,4251.T,KEIWA Incorporated,7.13,0.237,0.264,Yes,Electronic Components,Technology,2.0 - Buy
 1318,7887.T,"Nankai Plywood Co.,Ltd.",16.05,0.515,0.03,Yes,"Furnishings, Fixtures & Appliances",Consumer Cyclical,
 1319,5580.T,"Prodelight Co.,Ltd.",5.96,0.2,0.113,No,Software - Infrastructure,Technology,
 1320,2911.T,"Asahimatsu Foods Co., Ltd.",1.09,0.037,0.008,No,Packaged Foods,Consumer Defensive,
@@ -1794,7 +1794,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 1793,1850.T,"Nankai Tatsumura Construction Co., Ltd.",-8.01,0.34,0.374,Yes,Engineering & Construction,Industrials,
 1794,3668.T,"COLOPL, Inc.",-5.77,0.239,0.107,No,Electronic Gaming & Multimedia,Communication Services,
 1795,6279.T,Zuiko Corporation,-3.86,0.158,0.081,Yes,Specialty Industrial Machinery,Industrials,
-1796,9160.T,"ON THE PAGE, Inc.",-3.77,0.154,0.169,No,Personal Services,Consumer Cyclical,
+1796,9160.T,"ON THE PAGE, Inc.",-3.77,0.154,0.169,No,Personal Services,Consumer Cyclical,0.0 - Strong Buy
 1797,3287.T,"Hoshino Resorts REIT, Inc.",-4.2,0.17,0.233,Yes,REIT - Hotel & Motel,Real Estate,
 1798,9853.T,"Ginza Renoir Co., Ltd.",-1.51,0.06,0.061,Yes,Restaurants,Consumer Cyclical,
 1799,4685.T,"Ryoyu Systems Co., Ltd.",-9.99,0.413,0.771,Yes,Conglomerates,Industrials,
@@ -1831,7 +1831,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 1830,3323.T,"Recomm Co., Ltd.",-16.51,0.64,0.036,Yes,Telecom Services,Communication Services,
 1831,4331.T,"Take and Give. Needs Co., Ltd",-4.71,0.172,0.037,No,Personal Services,Consumer Cyclical,
 1832,7686.T,"HitoMile Co., Ltd.",-3.24,0.117,0.1,No,Food Distribution,Consumer Defensive,
-1833,8267.T,"Aeon Co., Ltd.",-14.81,0.562,0.336,Yes,Department Stores,Consumer Cyclical,3.6 - Underperform
+1833,8267.T,"Aeon Co., Ltd.",-14.81,0.562,0.336,Yes,Department Stores,Consumer Cyclical,
 1834,4574.T,"Taiko Pharmaceutical Co.,Ltd.",-8.07,0.295,0.034,Yes,Drug Manufacturers - Specialty & Generic,Healthcare,0.0 - Strong Buy
 1835,7850.T,"Sougou Shouken Co.,Ltd.",-2.88,0.102,0.07,Yes,Specialty Business Services,Industrials,
 1836,6620.T,"Miyakoshi Holdings, Inc.",-16.73,0.636,0.719,Yes,Asset Management,Financial Services,
@@ -2030,7 +2030,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 2029,7590.T,"Takasho Co.,Ltd.",-4.87,0.087,0.114,Yes,Home Improvement Retail,Consumer Cyclical,
 2030,2667.T,"ImageONE Co., Ltd.",-42.01,0.93,0.5,Yes,Scientific & Technical Instruments,Technology,
 2031,5125.T,Fines inc.,-27.21,0.546,0.622,No,Entertainment,Communication Services,
-2032,2148.T,ITmedia Inc.,-18.53,0.353,0.015,No,Advertising Agencies,Communication Services,0.0 - Strong Buy
+2032,2148.T,ITmedia Inc.,-18.53,0.353,0.015,No,Advertising Agencies,Communication Services,
 2033,7938.T,Regal Corporation,-7.66,0.137,0.221,No,Footwear & Accessories,Consumer Cyclical,
 2034,168A.T,Itamiarts.Inc,-10.35,0.187,0.106,Yes,Advertising Agencies,Communication Services,
 2035,9474.T,"Zenrin Co., Ltd.",-10.27,0.186,0.247,No,Internet Content & Information,Communication Services,
@@ -2079,7 +2079,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 2078,3921.T,NEOJAPAN Inc.,-10.55,0.17,0.068,Yes,Software - Application,Technology,
 2079,8966.T,"Heiwa Real Estate REIT, Inc.",-8.35,0.133,0.15,Yes,REIT - Diversified,Real Estate,
 2080,6417.T,"Sankyo Co., Ltd.",-18.34,0.307,0.22,No,Gambling,Consumer Cyclical,
-2081,4819.T,"Digital Garage, Inc.",-29.29,0.521,0.182,No,Information Technology Services,Technology,1.3 - Strong Buy
+2081,4819.T,"Digital Garage, Inc.",-29.29,0.521,0.182,No,Information Technology Services,Technology,
 2082,9946.T,"MINISTOP Co., Ltd.",-8.95,0.142,0.066,No,Grocery Stores,Consumer Defensive,
 2083,6658.T,"Shirai Electronics Industrial Co., Ltd.",-23.35,0.399,0.019,Yes,Electronic Components,Technology,
 2084,6181.T,Tameny Inc.,-20.5,0.344,0.343,No,Personal Services,Consumer Cyclical,
@@ -2117,7 +2117,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 2116,3844.T,Comture Corporation,-13.21,0.195,0.328,No,Information Technology Services,Technology,
 2117,151A.T,Dive Group Inc.,-12.65,0.186,0.093,No,Staffing & Employment Services,Industrials,
 2118,589A.T,"NEIS Co.,Ltd.",-61.91,1.279,,,Education & Training Services,Consumer Defensive,
-2119,2979.T,"SOSiLA Logistics REIT, Inc.",-8.98,0.129,0.195,Yes,REIT - Industrial,Real Estate,
+2119,2979.T,"SOSiLA Logistics REIT, Inc.",-8.98,0.129,0.195,Yes,REIT - Industrial,Real Estate,3.0 - Hold
 2120,6040.T,"Nippon Ski Resort Development Co.,Ltd.",-15.01,0.222,0.119,Yes,Resorts & Casinos,Consumer Cyclical,
 2121,7426.T,Yamadai Corporation,-38.4,0.65,0.42,No,Lumber & Wood Production,Basic Materials,
 2122,4934.T,"Premier Anti-Aging Co., Ltd.",-22.03,0.337,0.471,Yes,Household & Personal Products,Consumer Defensive,3.0 - Hold
@@ -2165,7 +2165,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 2164,2776.T,"SHINTO Holdings, Inc.",-26.19,0.373,0.081,No,Apparel Manufacturing,Consumer Cyclical,
 2165,7886.T,"Yamato Mobility & Mfg. Co.,Ltd.",-31.62,0.465,0.206,No,Specialty Chemicals,Basic Materials,
 2166,2971.T,ESCON JAPAN REIT Investment Corporation,-5.92,0.076,0.049,Yes,REIT - Retail,Real Estate,0.0 - Strong Buy
-2167,4784.T,"GMO internet, Inc.",-37.87,0.574,0.452,No,Software - Infrastructure,Technology,
+2167,4784.T,"GMO internet, Inc.",-37.87,0.574,0.452,No,Software - Infrastructure,Technology,0.0 - Strong Buy
 2168,9245.T,Livero Inc.,-19.41,0.263,0.237,No,Internet Content & Information,Communication Services,0.0 - Strong Buy
 2169,6551.T,"Tsunagu Group Holdings, Inc.",-20.2,0.274,0.17,No,Staffing & Employment Services,Industrials,
 2170,6753.T,Sharp Corporation,-19.16,0.258,0.37,Yes,Consumer Electronics,Technology,3.9 - Underperform
@@ -2353,7 +2353,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 2352,7531.T,Seiwa Chuo Holdings Corporation,-20.65,0.163,0.006,Yes,Steel,Basic Materials,
 2353,6560.T,"LTS, Inc.",-23.2,0.186,0.123,Yes,Consulting Services,Industrials,
 2354,3810.T,"CyberStep Holdings, Inc.",-44.77,0.412,0.042,Yes,Electronic Gaming & Multimedia,Communication Services,
-2355,8977.T,"Hankyu Hanshin REIT, Inc.",-17.28,0.133,0.164,Yes,REIT - Diversified,Real Estate,
+2355,8977.T,"Hankyu Hanshin REIT, Inc.",-17.28,0.133,0.164,Yes,REIT - Diversified,Real Estate,3.0 - Hold
 2356,3996.T,Signpost Corporation,-42.74,0.385,0.123,No,Information Technology Services,Technology,
 2357,8181.T,"Totenko Co., Ltd.",-17.44,0.134,0.135,Yes,Restaurants,Consumer Cyclical,
 2358,9214.T,"Recovery International Co.,Ltd.",-18.57,0.143,0.033,No,Medical Care Facilities,Healthcare,
@@ -2361,7 +2361,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 2360,137A.T,"Cocolive, Inc.",-49.23,0.463,0.253,No,Software - Infrastructure,Technology,
 2361,2931.T,"Euglena Co., Ltd.",-22.74,0.178,0.252,No,Household & Personal Products,Consumer Defensive,
 2362,3678.T,"MEDIA DO Co., Ltd.",-30.1,0.245,0.179,No,Publishing,Communication Services,
-2363,4054.T,"Japan PropTech Co.,Ltd.",-27.41,0.219,0.173,No,Software - Application,Technology,
+2363,4054.T,"Japan PropTech Co.,Ltd.",-27.41,0.219,0.173,No,Software - Application,Technology,0.0 - Strong Buy
 2364,7679.T,"YAKUODO HOLDINGS Co., Ltd.",-27.5,0.22,0.14,No,Pharmaceutical Retailers,Healthcare,
 2365,6038.T,"IID, Inc.",-16.74,0.126,0.027,Yes,Advertising Agencies,Communication Services,
 2366,6867.T,Leader Electronics Corporation,-17.47,0.132,0.097,Yes,Scientific & Technical Instruments,Technology,
@@ -2371,7 +2371,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 2370,4429.T,"Ricksoft Co., Ltd.",-32.33,0.261,0.481,No,Software - Application,Technology,
 2371,4017.T,Creema Ltd.,-24.97,0.192,0.281,No,Internet Retail,Consumer Cyclical,
 2372,3111.T,"Omikenshi Co., Ltd.",-32.81,0.264,0.018,No,Textile Manufacturing,Consumer Cyclical,
-2373,7352.T,TWOSTONE&Sons Inc.,-56.74,0.545,0.069,No,Specialty Business Services,Industrials,
+2373,7352.T,TWOSTONE&Sons Inc.,-56.74,0.545,0.069,No,Specialty Business Services,Industrials,0.0 - Strong Buy
 2374,9225.T,Bridge Consulting Group Inc.,-28.5,0.219,0.183,Yes,Specialty Business Services,Industrials,
 2375,8798.T,"Advance Create Co., Ltd.",-52.3,0.475,0.35,No,Insurance - Diversified,Financial Services,
 2376,9417.T,"Smartvalue Co., Ltd.",-26.75,0.203,0.078,Yes,Software - Infrastructure,Technology,

@@ -2,7 +2,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 1,PEO.WA,Bank Polska Kasa Opieki S.A.,70.09,0.114,Banks - Regional,Financial Services,2.5 - Buy
 2,EBP.WA,Erste Bank Polska S.A.,75.12,0.153,Banks - Regional,Financial Services,2.5 - Buy
 3,PKO.WA,Powszechna Kasa Oszczednosci Bank Polski Spólka Akcyjna,82.11,0.181,Banks - Regional,Financial Services,2.0 - Buy
-4,MBK.WA,mBank S.A.,58.81,0.153,Banks - Regional,Financial Services,3.3 - Hold
+4,MBK.WA,mBank S.A.,58.81,0.153,Banks - Regional,Financial Services,3.0 - Hold
 5,MBR.WA,Mo-BRUK S.A.,52.52,0.148,Waste Management,Industrials,
 6,CAR.WA,Inter Cars S.A.,85.53,0.235,Auto Parts,Consumer Cyclical,2.0 - Buy
 7,ING.WA,ING Bank Slaski S.A.,63.6,0.187,Banks - Regional,Financial Services,3.5 - Hold
@@ -12,7 +12,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 11,BNP.WA,BNP Paribas Bank Polska S.A.,64.63,0.205,Banks - Regional,Financial Services,2.0 - Buy
 12,GPW.WA,Gielda Papierów Wartosciowych w Warszawie S.A.,90.36,0.271,Financial Data & Stock Exchanges,Financial Services,2.8 - Hold
 13,EDI.WA,ED Invest Spólka Akcyjna,75.45,0.252,Residential Construction,Consumer Cyclical,
-14,MIL.WA,Bank Millennium S.A.,46.95,0.18,Banks - Regional,Financial Services,3.9 - Underperform
+14,MIL.WA,Bank Millennium S.A.,46.95,0.18,Banks - Regional,Financial Services,3.6 - Underperform
 15,ABE.WA,AB S.A.,84.29,0.289,Electronics & Computer Distribution,Technology,
 16,RWE.WA,RWE Aktiengesellschaft,75.59,0.271,Utilities - Diversified,Utilities,
 17,ACT.WA,Action S.A.,89.12,0.312,Electronics & Computer Distribution,Technology,
@@ -35,7 +35,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 34,QNT.WA,Quantum software S.A.,88.29,0.391,Software - Application,Technology,
 35,BAY.WA,Bayer Aktiengesellschaft,103.5,0.444,Drug Manufacturers - General,Healthcare,
 36,HANM.WA,H & M Hennes & Mauritz AB (publ),47.18,0.251,Apparel Manufacturing,Consumer Cyclical,
-37,BHW.WA,Bank Handlowy w Warszawie S.A.,30.46,0.173,Banks - Regional,Financial Services,
+37,BHW.WA,Bank Handlowy w Warszawie S.A.,30.46,0.173,Banks - Regional,Financial Services,3.4 - Hold
 38,ASML.WA,ASML Holding N.V.,108.31,0.496,Semiconductor Equipment & Materials,Technology,
 39,PJP.WA,PJP Makrum S.A.,72.37,0.366,Engineering & Construction,Industrials,
 40,UCG.WA,UniCredit S.p.A.,42.6,0.252,Banks - Regional,Financial Services,
@@ -77,7 +77,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 76,DAD.WA,Dadelo S.A.,50.52,0.472,Specialty Retail,Consumer Cyclical,
 77,IMC.WA,IMC S.A.,53.58,0.507,Farm Products,Consumer Defensive,0.0 - Strong Buy
 78,APL.WA,LC Spólka Akcyjna,25.97,0.273,Electronics & Computer Distribution,Technology,
-79,MNC.WA,Mennica Polska S.A.,41.88,0.418,Metal Fabrication,Industrials,0.0 - Strong Buy
+79,MNC.WA,Mennica Polska S.A.,41.88,0.418,Metal Fabrication,Industrials,
 80,4MS.WA,4MASS Spólka Akcyjna,29.88,0.316,Household & Personal Products,Consumer Defensive,
 81,ATP.WA,Atlanta Poland S.A.,30.44,0.323,Food Distribution,Consumer Defensive,
 82,NEU.WA,NEUCA S.A.,24.03,0.261,Medical Distribution,Healthcare,1.0 - Strong Buy
@@ -203,7 +203,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 202,REX.WA,Rex Concepts S.A.,-8.77,0.235,Restaurants,Consumer Cyclical,
 203,KSG.WA,KSG Agro S.A.,-9.11,0.242,Farm Products,Consumer Defensive,
 204,ADS.WA,adidas AG,-12.06,0.319,Footwear & Accessories,Consumer Cyclical,
-205,STX.WA,Stalexport Autostrady S.A.,-13.6,0.331,Infrastructure Operations,Industrials,
+205,STX.WA,Stalexport Autostrady S.A.,-13.6,0.331,Infrastructure Operations,Industrials,0.0 - Strong Buy
 206,LTX.WA,Lentex S.A.,-8.42,0.193,Building Products & Equipment,Industrials,
 207,INP.WA,Inpro S.A.,-5.4,0.122,Real Estate - Development,Real Estate,
 208,BMC.WA,Bumech S.A.,-28.59,0.72,Thermal Coal,Energy,
