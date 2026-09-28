@@ -53,7 +53,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 52,1304.SR,Al Yamamah Steel Industries Company,10.98,0.39,Steel,Basic Materials,
 53,1320.SR,Saudi Steel Pipes Company,14.06,0.503,Steel,Basic Materials,
 54,9532.SR,Aljouf Mineral Water Bottling Co.,5.46,0.219,Beverages - Non-Alcoholic,Consumer Defensive,
-55,2285.SR,Arabian Mills for Food Products Company,6.05,0.25,Farm Products,Consumer Defensive,
+55,2285.SR,Arabian Mills for Food Products Company,6.05,0.25,Farm Products,Consumer Defensive,2.0 - Buy
 56,2290.SR,Yanbu National Petrochemical Company,12.5,0.53,Chemicals,Basic Materials,3.3 - Hold
 57,9547.SR,Rawasi Albina Investment Co.,11.07,0.492,Engineering & Construction,Industrials,
 58,8010.SR,The Company for Cooperative Insurance,7.73,0.35,Insurance - Life,Financial Services,1.1 - Strong Buy
@@ -92,7 +92,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 91,3060.SR,Yanbu Cement Company,-1.86,0.208,Building Materials,Basic Materials,
 92,4040.SR,Saudi Public Transport Company,-4.63,0.443,Railroads,Industrials,
 93,8060.SR,Walaa Cooperative Insurance Company,-3.88,0.341,Insurance - Diversified,Financial Services,3.0 - Hold
-94,2350.SR,Saudi Kayan Petrochemical Company,-3.6,0.301,Chemicals,Basic Materials,3.0 - Hold
+94,2350.SR,Saudi Kayan Petrochemical Company,-3.6,0.301,Chemicals,Basic Materials,3.3 - Hold
 95,1120.SR,Al Rajhi Banking and Investment Corporation,-2.67,0.2,Banks - Regional,Financial Services,2.2 - Buy
 96,7030.SR,Mobile Telecommunications Company Saudi Arabia,-2.2,0.155,Telecom Services,Communication Services,3.4 - Hold
 97,4148.SR,Alwasail Industrial Company,-5.68,0.402,Specialty Chemicals,Basic Materials,
@@ -119,7 +119,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 118,8012.SR,Aljazira Takaful Taawuni Company,-5.8,0.198,Insurance - Life,Financial Services,
 119,9559.SR,Balady Poultry Company,-14.41,0.513,Farm Products,Consumer Defensive,
 120,9650.SR,Sahat Almajd Trading Company,-6.91,0.235,Packaged Foods,Consumer Defensive,
-121,2170.SR,Alujain Corporation,-12.75,0.439,Specialty Chemicals,Basic Materials,
+121,2170.SR,Alujain Corporation,-12.75,0.439,Specialty Chemicals,Basic Materials,1.0 - Strong Buy
 122,4142.SR,Riyadh Cables Group Company,-11.08,0.363,Electrical Equipment & Parts,Industrials,
 123,2240.SR,Advanced Building Industries Co.,-11.33,0.364,Building Products & Equipment,Industrials,
 124,9631.SR,Hedab Alkhaleej Trading Co.,-11.69,0.373,Residential Construction,Consumer Cyclical,
@@ -157,7 +157,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 156,8050.SR,Salama Cooperative Insurance Company,-25.02,0.461,Insurance - Property & Casualty,Financial Services,
 157,9543.SR,Saudi Networkers Services Company,-10.86,0.18,Consulting Services,Industrials,
 158,7203.SR,Elm Company,-23.9,0.414,Information Technology Services,Technology,
-159,2060.SR,National Industrialization Company,-18.72,0.312,Chemicals,Basic Materials,
+159,2060.SR,National Industrialization Company,-18.72,0.312,Chemicals,Basic Materials,3.3 - Hold
 160,3005.SR,Umm Al-Qura Cement Company,-17.29,0.278,Building Materials,Basic Materials,
 161,9601.SR,Mohammed Hadi Al-Rasheed Company,-16.89,0.265,Other Industrial Metals & Mining,Basic Materials,
 162,9627.SR,Twareat Medical Care Company,-25.91,0.426,Medical Care Facilities,Healthcare,
@@ -214,7 +214,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 213,9571.SR,Munawla Cargo Co. Ltd.,-43.44,0.331,Integrated Freight & Logistics,Industrials,
 214,9537.SR,Amwaj International Company,-53.04,0.43,"Furnishings, Fixtures & Appliances",Consumer Cyclical,
 215,4081.SR,Nayifat Finance Company,-26.05,0.174,Credit Services,Financial Services,
-216,4003.SR,United Electronics Company,-23.19,0.145,Specialty Retail,Consumer Cyclical,
+216,4003.SR,United Electronics Company,-23.19,0.145,Specialty Retail,Consumer Cyclical,1.6 - Buy
 217,1302.SR,Bawan Company,-36.77,0.249,Building Products & Equipment,Industrials,
 218,9591.SR,View United Real Estate Development Co.,-31.17,0.203,Real Estate - Development,Real Estate,
 219,9617.SR,Arabica Star Company,-44.77,0.315,Restaurants,Consumer Cyclical,
