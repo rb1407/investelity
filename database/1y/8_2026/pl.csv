@@ -77,7 +77,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 76,DAD.WA,Dadelo S.A.,50.52,0.472,Specialty Retail,Consumer Cyclical,
 77,IMC.WA,IMC S.A.,53.58,0.507,Farm Products,Consumer Defensive,0.0 - Strong Buy
 78,APL.WA,LC Spólka Akcyjna,25.97,0.273,Electronics & Computer Distribution,Technology,
-79,MNC.WA,Mennica Polska S.A.,41.88,0.418,Metal Fabrication,Industrials,
+79,MNC.WA,Mennica Polska S.A.,41.88,0.418,Metal Fabrication,Industrials,0.0 - Strong Buy
 80,4MS.WA,4MASS Spólka Akcyjna,29.88,0.316,Household & Personal Products,Consumer Defensive,
 81,ATP.WA,Atlanta Poland S.A.,30.44,0.323,Food Distribution,Consumer Defensive,
 82,NEU.WA,NEUCA S.A.,24.03,0.261,Medical Distribution,Healthcare,1.0 - Strong Buy
@@ -203,7 +203,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 202,REX.WA,Rex Concepts S.A.,-8.77,0.235,Restaurants,Consumer Cyclical,
 203,KSG.WA,KSG Agro S.A.,-9.11,0.242,Farm Products,Consumer Defensive,
 204,ADS.WA,adidas AG,-12.06,0.319,Footwear & Accessories,Consumer Cyclical,
-205,STX.WA,Stalexport Autostrady S.A.,-13.6,0.331,Infrastructure Operations,Industrials,0.0 - Strong Buy
+205,STX.WA,Stalexport Autostrady S.A.,-13.6,0.331,Infrastructure Operations,Industrials,
 206,LTX.WA,Lentex S.A.,-8.42,0.193,Building Products & Equipment,Industrials,
 207,INP.WA,Inpro S.A.,-5.4,0.122,Real Estate - Development,Real Estate,
 208,BMC.WA,Bumech S.A.,-28.59,0.72,Thermal Coal,Energy,
