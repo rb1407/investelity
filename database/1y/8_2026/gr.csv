@@ -96,7 +96,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 95,LANAC.AT,Lanakam S.A.,-34.28,0.481,0.811,No,Textile Manufacturing,Consumer Cyclical,
 96,CAIROMEZ.AT,Cairo Mezz Plc,-37.42,0.528,0.506,Yes,Capital Markets,Financial Services,
 97,CPI.AT,CPI Computer Peripherals International,-19.74,0.245,0.888,Yes,Information Technology Services,Technology,
-98,TRASTOR.AT,Trastor Real Estate Investment Company SA,-23.4,0.293,0.185,No,REIT - Diversified,Real Estate,
+98,TRASTOR.AT,Trastor Real Estate Investment Company SA,-23.4,0.293,0.185,No,REIT - Diversified,Real Estate,1.0 - Strong Buy
 99,LAMDA.AT,LAMDA Development S.A.,-17.8,0.2,0.718,Yes,Real Estate - Development,Real Estate,1.0 - Strong Buy
 100,ALWN.AT,Allwyn AG,-25.17,0.294,0.799,Yes,Gambling,Consumer Cyclical,2.8 - Hold
 101,IATR.AT,Athens Medical C.S.A.,-21.62,0.23,0.395,Yes,Medical Care Facilities,Healthcare,

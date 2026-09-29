@@ -141,7 +141,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 140,2030.SR,Saudi Arabian Refineries Company,-14.54,0.348,Conglomerates,Industrials,
 141,1210.SR,Basic Chemical Industries Company,-9.51,0.213,Chemicals,Basic Materials,
 142,4342.SR,Jadwa Investment - Jadwa Reit Saudi Fund,-5.75,0.12,REIT - Residential,Real Estate,
-143,4015.SR,Jamjoom Pharmaceuticals Factory Company,-9.6,0.2,Drug Manufacturers - Specialty & Generic,Healthcare,
+143,4015.SR,Jamjoom Pharmaceuticals Factory Company,-9.6,0.2,Drug Manufacturers - Specialty & Generic,Healthcare,3.0 - Hold
 144,6018.SR,Sport Clubs Company,-16.4,0.353,Leisure,Consumer Cyclical,
 145,6050.SR,Saudi Fisheries Company,-52.62,1.397,Farm Products,Consumer Defensive,
 146,2360.SR,Saudi Vitrified Clay Pipe Company,-21.36,0.44,Building Products & Equipment,Industrials,
@@ -221,7 +221,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 220,9545.SR,International Human Resources Company,-25.44,0.157,Staffing & Employment Services,Industrials,
 221,4230.SR,Red Sea International Company,-47.59,0.336,Real Estate Services,Real Estate,
 222,9592.SR,Almujtama Alraida Medical Co.,-35.68,0.226,Pharmaceutical Retailers,Healthcare,
-223,4321.SR,Arabian Centres Company,-28.29,0.171,Real Estate - Diversified,Real Estate,
+223,4321.SR,Arabian Centres Company,-28.29,0.171,Real Estate - Diversified,Real Estate,2.4 - Buy
 224,3091.SR,Al Jouf Cement Company,-28.44,0.171,Building Materials,Basic Materials,
 225,3030.SR,Saudi Cement Company,-27.32,0.163,Building Materials,Basic Materials,
 226,9595.SR,WSM For Information Technology,-42.25,0.272,Consulting Services,Industrials,
