@@ -1,7 +1,7 @@
 Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,Sector,Rating
 1,EG7.IR,FBD Holdings plc,46.65,0.106,0.537,Yes,Insurance - Property & Casualty,Financial Services,
 2,A5G.IR,AIB Group plc,60.21,0.168,0.347,Yes,Banks - Regional,Financial Services,2.6 - Hold
-3,GRP.IR,Greencoat Renewables,10.31,0.039,0.116,Yes,,,2.0 - Buy
+3,GRP.IR,Greencoat Renewables,10.31,0.039,0.116,Yes,Utilities - Renewable,Utilities,2.0 - Buy
 4,GL9.IR,Glanbia plc,74.24,0.273,0.567,Yes,Packaged Foods,Consumer Defensive,2.0 - Buy
 5,BIRG.IR,Bank of Ireland Group plc,48.64,0.194,0.952,Yes,Banks - Regional,Financial Services,1.9 - Buy
 6,HMSO.IR,Hammerson Plc,37.96,0.172,0.476,No,REIT - Retail,Real Estate,
