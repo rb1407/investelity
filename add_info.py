@@ -33,14 +33,14 @@ for i in ['1y', '3y']:
 
             except Exception as e:
                if "YFRateLimitError" in str(e) or "Too Many Requests" in str(e):
-                   time.sleep(7200)
+                   time.sleep(10)
                    continue
                 
             finally:
                yf_logger.removeHandler(catcher)
 
             if catcher.hit:
-                time.sleep(7200)
+                time.sleep(10)
                 continue
                 
             returns.loc[r,'Industry'] = info.get('industry')
