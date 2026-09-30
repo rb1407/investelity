@@ -204,7 +204,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 203,PNN.XA,Power Minerals Limited,137.96,0.795,5.938,Yes,,,
 204,WGN.AX,Wagners Holding Company Limited,73.54,0.5,0.749,Yes,Building Materials,Basic Materials,
 205,ASAO.AX,abrdn Sustainable Asian Opportunities Fund Active ETF (Managed Fund) Class E,41.3,0.311,1.064,Yes,,,
-206,ALK.AX,Alkane Resources Ltd,105.03,0.657,2.727,Yes,Gold,Basic Materials,1.3 - Strong Buy
+206,ALK.AX,Alkane Resources Ltd,105.03,0.657,2.727,Yes,Gold,Basic Materials,
 207,DMP.XA,Domino's Pizza Enterprises Limited,86.3,0.567,1.356,Yes,,,
 208,1CG.XA,One Click Group Limited,59.76,0.425,0.005,No,,,
 209,IMR.AX,"Imricor Medical Systems, Inc.",50.91,0.373,1.62,Yes,Medical Devices,Healthcare,
@@ -215,7 +215,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 214,AUDS.AX,Betashares Strong Australian Dollar Complex ETF,27.65,0.222,1.359,Yes,,,
 215,SIQ.AX,Smartgroup Corporation Ltd,52.47,0.387,0.309,Yes,Specialty Business Services,Industrials,2.6 - Hold
 216,ALK.XA,Alkane Resources Ltd,99.25,0.641,2.578,Yes,,,
-217,CDA.AX,Codan Limited,94.93,0.627,2.333,Yes,Scientific & Technical Instruments,Technology,1.9 - Buy
+217,CDA.AX,Codan Limited,94.93,0.627,2.333,Yes,Scientific & Technical Instruments,Technology,1.8 - Buy
 218,CDA.XA,Codan Limited,95.76,0.632,2.325,Yes,,,
 219,M24.XA,Mamba Exploration Limited,148.03,0.864,8.781,Yes,,,
 220,VEA.AX,Viva Energy Group Limited,106.75,0.687,4.064,No,Oil & Gas Refining & Marketing,Energy,1.9 - Buy
@@ -294,10 +294,10 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 293,CEH.XA,Coast Entertainment Holdings Limited,37.3,0.349,1.651,Yes,,,
 294,RRL.XA,Regis Resources Limited,66.97,0.57,2.85,Yes,,,
 295,LIB.AX,Liberty Metals Ltd,144.0,1.008,3.367,Yes,Other Industrial Metals & Mining,Basic Materials,
-296,BB1.AX,BlinkLab Limited,70.96,0.598,0.759,Yes,Health Information Services,Healthcare,
+296,BB1.AX,BlinkLab Limited,70.96,0.598,0.759,Yes,Health Information Services,Healthcare,1.5 - Strong Buy
 297,RCAP.AX,Resolution Capital Global Property Securities - Active ETF,16.62,0.169,1.104,Yes,,,
 298,FLG.AX,Flagship Minerals Limited,81.86,0.669,2.876,Yes,Other Industrial Metals & Mining,Basic Materials,
-299,MQG.AX,Macquarie Group Limited,22.23,0.221,1.195,Yes,Capital Markets,Financial Services,2.2 - Buy
+299,MQG.AX,Macquarie Group Limited,22.23,0.221,1.195,Yes,,,
 300,BFL.AX,BSP Financial Group Limited,14.05,0.145,0.715,Yes,Banks - Regional,Financial Services,
 301,PRU.AX,Perseus Mining Limited,47.51,0.434,1.044,Yes,Gold,Basic Materials,2.4 - Buy
 302,DAL.AX,Dalaroo Metals Ltd,137.15,0.986,4.834,Yes,Other Industrial Metals & Mining,Basic Materials,
@@ -311,7 +311,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 310,KCN.AX,Kingsgate Consolidated Limited,108.44,0.846,4.109,Yes,Gold,Basic Materials,1.0 - Strong Buy
 311,AIV.AX,ActivEX Limited,45.93,0.43,2.146,Yes,Other Industrial Metals & Mining,Basic Materials,
 312,MEI.AX,Meteoric Resources Limited,84.62,0.705,3.763,Yes,Other Industrial Metals & Mining,Basic Materials,1.0 - Strong Buy
-313,BFG.AX,Bell Financial Group Limited,31.48,0.31,2.263,Yes,Capital Markets,Financial Services,
+313,BFG.AX,Bell Financial Group Limited,31.48,0.31,2.263,Yes,Capital Markets,Financial Services,0.0 - Strong Buy
 314,IME.AX,ImExHS Limited,45.75,0.43,0.943,Yes,Diagnostics & Research,Healthcare,
 315,DEV.XA,DevEx Resources Limited,87.3,0.724,2.595,Yes,,,
 316,WIA.XA,WIA Gold Limited,65.07,0.576,3.027,Yes,,,
@@ -443,7 +443,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 442,TBR.XA,Tribune Resources Limited,24.3,0.324,1.944,Yes,,,
 443,USC.XA,US1 Critical Minerals Limited,79.72,0.889,32.403,Yes,,,
 444,1MC.AX,Morella Corporation Limited,102.46,1.075,2.694,Yes,Other Industrial Metals & Mining,Basic Materials,
-445,WAF.AX,West African Resources Limited,39.09,0.498,1.379,Yes,Gold,Basic Materials,1.8 - Buy
+445,WAF.AX,West African Resources Limited,39.09,0.498,1.379,Yes,Gold,Basic Materials,1.3 - Strong Buy
 446,SHO.AX,SportsHero Limited,115.8,1.182,3.823,Yes,Internet Content & Information,Communication Services,
 447,WAU.XA,WA Gold Limited,85.6,0.947,3.77,Yes,,,
 448,PSL.AX,Paterson Resources Ltd,31.32,0.415,1.181,No,Other Industrial Metals & Mining,Basic Materials,
@@ -1023,7 +1023,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 1022,CMP.XA,Compumedics Limited,-0.68,0.463,0.225,No,,,
 1023,GMVW.AX,VanEck Geared Australian Equal Weight Fund (Hedge Fund),-0.26,0.168,1.252,Yes,,,
 1024,PPC.AX,Peet Limited,-0.33,0.192,0.965,Yes,Real Estate - Development,Real Estate,
-1025,RFG.AX,Retail Food Group Limited,-1.18,0.659,0.365,No,Restaurants,Consumer Cyclical,
+1025,RFG.AX,Retail Food Group Limited,-1.18,0.659,0.365,No,Restaurants,Consumer Cyclical,1.7 - Buy
 1026,LDX.AX,Lumos Diagnostics Holdings Limited,-1.73,0.866,1.69,Yes,Medical Devices,Healthcare,1.0 - Strong Buy
 1027,PCL.AX,Pancontinental Energy NL,-1.47,0.735,4.025,No,Oil & Gas E&P,Energy,
 1028,GG8.XA,Gorilla Gold Mines Ltd,-1.19,0.573,2.813,Yes,,,
@@ -1177,7 +1177,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 1176,WYX.AX,Western Yilgarn NL,-8.91,0.492,2.196,Yes,Other Industrial Metals & Mining,Basic Materials,
 1177,SRN.AX,Surefire Resources NL,-16.28,0.923,2.628,Yes,Other Industrial Metals & Mining,Basic Materials,
 1178,SVL.XA,Silver Mines Limited,-11.3,0.617,2.284,Yes,,,
-1179,BRU.AX,Buru Energy Limited,-11.83,0.643,0.566,Yes,Oil & Gas E&P,Energy,
+1179,BRU.AX,Buru Energy Limited,-11.83,0.643,0.566,Yes,Oil & Gas E&P,Energy,0.0 - Strong Buy
 1180,SWP.AX,Swoop Holdings Limited,-14.21,0.778,1.498,Yes,Telecom Services,Communication Services,
 1181,SVL.AX,Silver Mines Limited,-11.1,0.596,1.753,Yes,Farm Products,Consumer Defensive,
 1182,MSI.AX,Multistack International Limited,-12.01,0.636,0.63,No,Specialty Industrial Machinery,Industrials,
@@ -1292,7 +1292,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 1291,IMM.XA,Immutep Limited,-30.99,1.107,7.243,Yes,,,
 1292,CCV.XA,Cash Converters International Limited,-7.69,0.241,1.199,Yes,,,
 1293,BKY.AX,Berkeley Energia Limited,-10.32,0.327,2.084,Yes,Uranium,Energy,
-1294,BIO.AX,Biome Australia Limited,-15.71,0.512,1.802,Yes,Packaged Foods,Consumer Defensive,1.0 - Strong Buy
+1294,BIO.AX,Biome Australia Limited,-15.71,0.512,1.802,Yes,Packaged Foods,Consumer Defensive,
 1295,PR2.AX,Piche Resources Limited,-35.56,1.301,5.322,Yes,Other Industrial Metals & Mining,Basic Materials,
 1296,NXT.XA,NEXTDC Limited,-12.87,0.412,2.465,Yes,,,
 1297,I88.AX,Infini Resources Limited,-28.16,0.982,1.015,Yes,Other Industrial Metals & Mining,Basic Materials,
@@ -1480,7 +1480,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 1479,PNV.AX,PolyNovo Limited,-24.22,0.467,0.228,Yes,Medical Devices,Healthcare,1.6 - Buy
 1480,MDI.XA,Middle Island Resources Limited,-47.36,1.064,5.422,Yes,,,
 1481,AJL.AX,AJ Lucas Group Limited,-28.99,0.572,3.885,No,Coking Coal,Basic Materials,
-1482,AEL.AX,Amplitude Energy Limited,-27.9,0.545,2.338,Yes,Oil & Gas E&P,Energy,
+1482,AEL.AX,Amplitude Energy Limited,-27.9,0.545,2.338,Yes,Oil & Gas E&P,Energy,1.4 - Strong Buy
 1483,SPK.XA,Spark New Zealand Limited,-10.14,0.18,0.842,Yes,,,
 1484,NES.AX,Nelson Resources Limited,-37.76,0.782,2.706,Yes,Gold,Basic Materials,
 1485,PLY.AX,PlaySide Studios Limited,-31.95,0.63,2.245,Yes,Electronic Gaming & Multimedia,Communication Services,
@@ -1501,7 +1501,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 1500,BEL.AX,Bentley Capital Limited,-38.76,0.76,3.034,Yes,Asset Management,Financial Services,
 1501,MEK.XA,Meeka Metals Limited,-35.61,0.682,0.801,Yes,,,
 1502,XRF.XA,XRF Scientific Limited,-16.9,0.289,0.41,Yes,,,
-1503,REA.AX,REA Group Limited,-19.58,0.339,0.748,Yes,Internet Content & Information,Communication Services,2.5 - Buy
+1503,REA.AX,REA Group Limited,-19.58,0.339,0.748,Yes,Internet Content & Information,Communication Services,2.3 - Buy
 1504,KNG.AX,Kingsland Minerals Ltd,-47.23,0.974,1.192,Yes,Other Industrial Metals & Mining,Basic Materials,
 1505,SNAS.AX,Global X Ultra Short Nasdaq100 Complex ETF,-29.11,0.529,2.24,No,,,
 1506,ERL.XA,Empire Resources Limited,-54.02,1.174,4.078,Yes,,,
@@ -1741,7 +1741,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 1740,CHN.AX,Chalice Mining Limited,-42.22,0.541,2.391,Yes,Other Industrial Metals & Mining,Basic Materials,2.0 - Buy
 1741,CKF.XA,Collins Foods Limited,-21.82,0.246,0.363,Yes,,,
 1742,WOR.AX,Worley Limited,-24.72,0.283,0.353,No,Oil & Gas Equipment & Services,Energy,
-1743,CAR.AX,CAR Group Limited,-22.96,0.26,0.996,Yes,Internet Content & Information,Communication Services,
+1743,CAR.AX,CAR Group Limited,-22.96,0.26,0.996,Yes,Internet Content & Information,Communication Services,1.7 - Buy
 1744,AMH.AX,AMCIL Limited,-11.17,0.118,0.27,Yes,Asset Management,Financial Services,
 1745,AUV.XA,Auravelle Metals Limited,-53.59,0.747,0.231,Yes,,,
 1746,CLW.XA,Charter Hall Long WALE REIT,-15.96,0.173,0.703,Yes,,,
@@ -1762,7 +1762,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 1761,DTR.AX,Dateline Resources Limited,-68.98,1.086,1.519,No,Gold,Basic Materials,
 1762,SXL.XA,Southern Cross Media Group Limited,-30.83,0.353,1.046,Yes,,,
 1763,SPQ.XA,Superior Resources Limited,-51.26,0.678,0.681,Yes,,,
-1764,LFS.AX,Latitude Group Holdings Limited,-14.28,0.149,0.55,No,Credit Services,Financial Services,
+1764,LFS.AX,Latitude Group Holdings Limited,-14.28,0.149,0.55,No,Credit Services,Financial Services,3.0 - Hold
 1765,VR8.AX,Vanadium Resources Limited,-55.93,0.768,4.117,Yes,Other Industrial Metals & Mining,Basic Materials,
 1766,MOT.AX,Metrics Income Opportunities Trust,-10.99,0.112,0.551,Yes,Asset Management,Financial Services,
 1767,WHF.AX,Whitefield Industrials Limited,-8.56,0.086,0.486,Yes,Asset Management,Financial Services,
@@ -2074,7 +2074,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 2073,AIZ.XA,Air New Zealand Limited,-38.71,0.26,1.587,Yes,,,
 2074,GIB.AX,Gibb River Diamonds Limited,-45.95,0.324,1.041,No,Other Precious Metals & Mining,Basic Materials,
 2075,BNR.AX,Bulletin Resources Limited,-48.32,0.346,1.772,Yes,Gold,Basic Materials,
-2076,ATA.AX,Atturra Limited,-48.58,0.348,1.156,No,Information Technology Services,Technology,1.4 - Strong Buy
+2076,ATA.AX,Atturra Limited,-48.58,0.348,1.156,No,Information Technology Services,Technology,
 2077,ICL.AX,Iceni Gold Limited,-63.57,0.52,0.999,Yes,Gold,Basic Materials,
 2078,DRE.XA,Dreadnought Resources Limited,-61.69,0.494,2.796,Yes,,,
 2079,ARV.XA,Artemis Resources Limited,-65.43,0.544,0.05,No,,,
@@ -2121,7 +2121,7 @@ Rank,Ticker,Name,Return (%),Risk,Volatility,Follows Market Direction ?,Industry,
 2120,CF1.XA,Complii FinTech Solutions Ltd,-45.48,0.294,2.666,No,,,
 2121,NUZ.AX,Neurizon Therapeutics Limited,-54.96,0.384,1.814,Yes,Biotechnology,Healthcare,1.0 - Strong Buy
 2122,SVG.XA,Savannah Goldfields Limited,-61.1,0.45,0.943,Yes,,,
-2123,CQE.AX,Charter Hall Social Infrastructure REIT,-28.0,0.161,0.579,Yes,REIT - Specialty,Real Estate,1.7 - Buy
+2123,CQE.AX,Charter Hall Social Infrastructure REIT,-28.0,0.161,0.579,Yes,REIT - Specialty,Real Estate,
 2124,AMN.XA,Agrimin Limited,-59.83,0.434,6.342,Yes,,,
 2125,CIW.AX,Clime Investment Management Limited,-29.06,0.166,0.738,Yes,Asset Management,Financial Services,
 2126,CC5.AX,Clever Culture Systems Limited,-56.29,0.391,0.785,Yes,Software - Infrastructure,Technology,

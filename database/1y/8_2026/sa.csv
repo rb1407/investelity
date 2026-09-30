@@ -12,7 +12,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 11,4334.SR,Al Maather Reit Fund,6.23,0.069,REIT - Diversified,Real Estate,
 12,4345.SR,Alinma Retail REIT Fund,12.89,0.141,REIT - Retail,Real Estate,
 13,4344.SR,SEDCO Capital REIT Fund,14.58,0.16,REIT - Diversified,Real Estate,
-14,2286.SR,Fourth Milling Company,15.75,0.175,Farm Products,Consumer Defensive,3.0 - Hold
+14,2286.SR,Fourth Milling Company,15.75,0.175,Farm Products,Consumer Defensive,
 15,6015.SR,Americana Restaurants International PLC,38.07,0.412,Restaurants,Consumer Cyclical,1.5 - Strong Buy
 16,2190.SR,Sustained Infrastructure Holding Company,35.36,0.399,Marine Shipping,Industrials,1.5 - Strong Buy
 17,2222.SR,Saudi Arabian Oil Company,14.01,0.177,Oil & Gas Integrated,Energy,2.1 - Buy
@@ -49,7 +49,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 48,4300.SR,Dar Al Arkan Real Estate Development Company,9.93,0.323,Real Estate - Development,Real Estate,
 49,7020.SR,Etihad Etisalat Company,6.11,0.203,Telecom Services,Communication Services,1.6 - Buy
 50,4162.SR,Almunajem Foods Company,8.43,0.289,Food Distribution,Consumer Defensive,
-51,2283.SR,The First Milling Company,8.07,0.288,Packaged Foods,Consumer Defensive,3.0 - Hold
+51,2283.SR,The First Milling Company,8.07,0.288,Packaged Foods,Consumer Defensive,
 52,1304.SR,Al Yamamah Steel Industries Company,10.98,0.39,Steel,Basic Materials,
 53,1320.SR,Saudi Steel Pipes Company,14.06,0.503,Steel,Basic Materials,
 54,9532.SR,Aljouf Mineral Water Bottling Co.,5.46,0.219,Beverages - Non-Alcoholic,Consumer Defensive,
@@ -107,7 +107,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 106,7205.SR,Dar AlBalad for Business Solutions Company,-12.28,0.604,Information Technology Services,Technology,
 107,9563.SR,BENA Steel Industries,-6.07,0.288,Steel,Basic Materials,
 108,9639.SR,Anmat Technology for Trading Co.,-7.28,0.346,,,
-109,1820.SR,BAAN Holding Group Company,-6.87,0.293,Lodging,Consumer Cyclical,4.0 - Underperform
+109,1820.SR,BAAN Holding Group Company,-6.87,0.293,Lodging,Consumer Cyclical,
 110,9647.SR,Wajd life trading Company,-6.56,0.262,Medical Distribution,Healthcare,
 111,9516.SR,Natural Gas Distribution Company,-11.47,0.449,Utilities - Regulated Gas,Utilities,
 112,4002.SR,Mouwasat Medical Services Company,-6.61,0.251,Medical Care Facilities,Healthcare,1.9 - Buy
@@ -164,7 +164,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 163,4330.SR,Riyad REIT Fund,-6.76,0.096,REIT - Hotel & Motel,Real Estate,
 164,4082.SR,Morabaha Marina Financing Company,-18.6,0.268,Credit Services,Financial Services,
 165,4160.SR,Thimar Development Holding Company,-18.66,0.268,Asset Management,Financial Services,
-166,2040.SR,Saudi Ceramic Company,-18.31,0.26,Building Products & Equipment,Industrials,
+166,2040.SR,Saudi Ceramic Company,-18.31,0.26,Building Products & Equipment,Industrials,3.5 - Hold
 167,1832.SR,Sadr Logistics Company,-14.37,0.196,Metal Fabrication,Industrials,
 168,9546.SR,Naba Al Saha Medical Services Company,-21.75,0.307,Medical Care Facilities,Healthcare,
 169,9611.SR,Arabian United Float Glass Company,-14.72,0.197,Building Materials,Basic Materials,
@@ -187,7 +187,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 186,9597.SR,Leaf Global Environmental Services Company,-56.75,0.744,Waste Management,Industrials,
 187,2140.SR,Ayyan Investment Company,-24.57,0.247,Packaged Foods,Consumer Defensive,
 188,4331.SR,Aljazira Mawten REIT Fund,-15.66,0.149,REIT - Industrial,Real Estate,
-189,4084.SR,Derayah Financial Company,-24.83,0.247,Asset Management,Financial Services,1.0 - Strong Buy
+189,4084.SR,Derayah Financial Company,-24.83,0.247,Asset Management,Financial Services,
 190,4346.SR,MEFIC REIT Fund,-11.47,0.105,REIT - Diversified,Real Estate,
 191,2330.SR,Advanced Petrochemical Company,-31.89,0.319,Chemicals,Basic Materials,2.3 - Buy
 192,6010.SR,The National Agricultural Development Company,-29.38,0.285,Packaged Foods,Consumer Defensive,
