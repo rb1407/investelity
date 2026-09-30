@@ -77,7 +77,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 76,DAD.WA,Dadelo S.A.,50.52,0.472,Specialty Retail,Consumer Cyclical,
 77,IMC.WA,IMC S.A.,53.58,0.507,Farm Products,Consumer Defensive,
 78,APL.WA,LC Spólka Akcyjna,25.97,0.273,Electronics & Computer Distribution,Technology,
-79,MNC.WA,Mennica Polska S.A.,41.88,0.418,Metal Fabrication,Industrials,0.0 - Strong Buy
+79,MNC.WA,Mennica Polska S.A.,41.88,0.418,Metal Fabrication,Industrials,
 80,4MS.WA,4MASS Spólka Akcyjna,29.88,0.316,Household & Personal Products,Consumer Defensive,
 81,ATP.WA,Atlanta Poland S.A.,30.44,0.323,Food Distribution,Consumer Defensive,
 82,NEU.WA,NEUCA S.A.,24.03,0.261,Medical Distribution,Healthcare,1.0 - Strong Buy
@@ -153,9 +153,9 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 152,IMP.WA,Imperio Alternatywna Spolka Inwestycyjna S.A.,0.04,0.387,Asset Management,Financial Services,
 153,MRB.WA,Mirbud S.A.,-0.61,0.324,Engineering & Construction,Industrials,
 154,MCI.WA,MCI Capital Alternatywna Spólka Inwestycyjna S.A.,-0.28,0.101,Asset Management,Financial Services,
-155,OND.WA,Onde S.A.,-0.71,0.183,Engineering & Construction,Industrials,
+155,OND.WA,Onde S.A.,-0.71,0.183,Engineering & Construction,Industrials,0.0 - Strong Buy
 156,GPP.WA,Grupa Pracuj S.A.,-1.5,0.374,Staffing & Employment Services,Industrials,
-157,XTP.WA,XTPL S.A.,-1.33,0.293,Computer Hardware,Technology,
+157,XTP.WA,XTPL S.A.,-1.33,0.293,Computer Hardware,Technology,3.0 - Hold
 158,KCH.WA,Krakchemia S.A.,-7.45,1.164,Specialty Chemicals,Basic Materials,
 159,ALG.WA,All in! Games S.A.,-4.96,0.585,Electronic Gaming & Multimedia,Communication Services,
 160,PGM.WA,PMPG Polskie Media SA,-3.43,0.398,Publishing,Communication Services,
@@ -203,7 +203,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 202,REX.WA,Rex Concepts S.A.,-8.77,0.235,Restaurants,Consumer Cyclical,
 203,KSG.WA,KSG Agro S.A.,-9.11,0.242,Farm Products,Consumer Defensive,
 204,ADS.WA,adidas AG,-12.06,0.319,Footwear & Accessories,Consumer Cyclical,
-205,STX.WA,Stalexport Autostrady S.A.,-13.6,0.331,Infrastructure Operations,Industrials,
+205,STX.WA,Stalexport Autostrady S.A.,-13.6,0.331,Infrastructure Operations,Industrials,0.0 - Strong Buy
 206,LTX.WA,Lentex S.A.,-8.42,0.193,Building Products & Equipment,Industrials,
 207,INP.WA,Inpro S.A.,-5.4,0.122,Real Estate - Development,Real Estate,
 208,BMC.WA,Bumech S.A.,-28.59,0.72,Thermal Coal,Energy,
@@ -237,7 +237,7 @@ Rank,Ticker,Name,Return (%),Risk,Industry,Sector,Rating
 236,SPH.WA,Sopharma AD,-30.79,0.438,Medical Distribution,Healthcare,
 237,SCP.WA,Scope Fluidics S.A.,-19.91,0.253,Diagnostics & Research,Healthcare,
 238,SHG.WA,Starhedge S.A.,-24.56,0.318,Solar,Technology,
-239,ERB.WA,Erbud S.A.,-25.13,0.325,Engineering & Construction,Industrials,
+239,ERB.WA,Erbud S.A.,-25.13,0.325,Engineering & Construction,Industrials,3.0 - Hold
 240,MCR.WA,mcr Spolka Akcyjna,-32.66,0.426,Security & Protection Services,Industrials,
 241,BMW.WA,Bayerische Motoren Werke Aktiengesellschaft,-25.25,0.306,Auto Manufacturers,Consumer Cyclical,
 242,PPS.WA,Pepees S.A.,-12.2,0.135,Packaged Foods,Consumer Defensive,
